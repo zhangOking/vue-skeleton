@@ -8,10 +8,9 @@ class CircleCom extends BaseComponent {
   public static componentName: string = 'Circle'
   // tslint:disable-next-line:no-shadowed-variable
   public static install = Vue => Vue.component(CircleCom.componentName, CircleCom)
-  public name: string = 'Circle'
+  public name: string = 'CircleCom'
   public mounted() {
     // tslint:disable-next-line:no-console
-    console.log('Circle')
   }
   public render(h) {
     const { type, title = false, options, loading = false, active = false, start = true, center = false, end = false } = this.$props

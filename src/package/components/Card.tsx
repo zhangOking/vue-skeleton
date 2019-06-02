@@ -8,10 +8,9 @@ class CardCom extends BaseComponent {
   public static componentName: string = 'Card'
   // tslint:disable-next-line:no-shadowed-variable
   public static install = Vue => Vue.component(CardCom.componentName, CardCom)
-  public name: string = 'Circle'
+  public name: string = 'Card'
   public mounted() {
     // tslint:disable-next-line:no-console
-    console.log('Circle')
   }
   public render(h) {
     const { type, title = false, options, loading = false, active = false, start = true, center = false, end = false } = this.$props

@@ -1,11 +1,13 @@
-import Skeleton, { Article, Avatar, List, Custom, StraightLine } from './package/index';
+import Skeleton, { Article, Avatar, List, Custom, StraightLine, Card, Circle, ListCom } from './package/index';
 
 const components = [
-  Skeleton,
   Article,
   Avatar,
+  Card,
   List,
   Custom,
+  Circle,
+  ListCom,
   StraightLine
 ]
 

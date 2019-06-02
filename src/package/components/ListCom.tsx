@@ -8,11 +8,7 @@ class ListCom extends BaseComponent {
   public static componentName: string = 'ListCom'
   // tslint:disable-next-line:no-shadowed-variable
   public static install = Vue => Vue.component(ListCom.componentName, ListCom)
-  public name: string = 'Circle'
-  public mounted() {
-    // tslint:disable-next-line:no-console
-    console.log('Circle')
-  }
+  public name: string = 'ListCom'
   public render(h) {
     const { type, title = false, options, loading = false, active = false, start = true, center = false, end = false } = this.$props
     const { row = 4, lineHight = 20, width = '100%', height = '20px' } = options

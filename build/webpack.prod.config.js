@@ -9,7 +9,7 @@ const config = {
   output: {
     path: path.resolve(__dirname, '../dist'),
     filename: 'bundle.js',
-    library: 'LazyBackground',
+    library: 'Skeleton',
     libraryTarget: 'umd',
     umdNamedDefine: true
   },

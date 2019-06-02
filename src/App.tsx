@@ -378,7 +378,7 @@ class Home extends Vue {
 
 
           
-          {/* <div class={appStyle.boxList}>
+          <div class={appStyle.boxList}>
             <Skeleton type="custom"  options={{ width: '800px', height: '500px' }}
               childrenOption={[
                 <Skeleton type='circle' rules='a, d' active />,
@@ -388,6 +388,8 @@ class Home extends Vue {
             />
             <pre>
               {`
+                九宫格布局
+
                 <Skeleton type="custom"  options={{ width: '800px', height: '500px' }}
                   childrenOption={[
                     <Skeleton type='circle' rules='a, d' active />,
@@ -397,7 +399,7 @@ class Home extends Vue {
                 />
               `}
             </pre>
-          </div>  */}
+          </div> 
         </h2>
       </div>
     )
