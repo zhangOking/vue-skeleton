@@ -1,0 +1,86 @@
+.contianer{
+  height: 100%;
+}
+.contianer * {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.prog{
+  // background: #e6e6e6; 
+  position: relative;
+}
+.progActive {
+  transition: all 0.25s ease-in-out;
+  background: #e6e6e6; 
+  position: relative;
+  list-style: none;
+}
+.progActive:after {
+  content:"";
+  display: block; 
+  height: 100%; 
+  width: 100%;
+  position: absolute; 
+  left: 0; 
+  top: 0;
+  background: linear-gradient(
+    135deg,
+    #f2f2f2 25%,
+    #ffffff 37%,
+    #f2f2f2 63%
+  );
+  background-size: 400% 100%;
+  animation: progshow 1.4s ease infinite;
+}
+@keyframes progshow {
+  0% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+.title {
+  width: 200px;
+  height: 30px;
+  margin-bottom: 20px
+}
+.circle {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 100%;
+  align-items: center;
+  overflow: hidden;
+  padding: 5%;
+  box-sizing: border-box;
+}
+.card {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 100%;
+  align-items: center;
+  padding: 5%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.listCom {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 100%;
+  align-items: center;
+  overflow: hidden;
+  padding: 5%;
+  box-sizing: border-box;
+}
+.customList {
+  display: grid;
+}
+

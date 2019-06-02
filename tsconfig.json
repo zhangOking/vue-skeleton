@@ -1,0 +1,22 @@
+{
+  "exclude": [
+    "node_modules"
+  ],
+  "noImplicitAny": false,
+  "compilerOptions": {
+    "outDir": "./dist",
+    "strict":true,
+    "module": "es2015",
+    "types": ["node"],
+    "typeRoots": ["node_modules/@types"],
+    "moduleResolution": "node",
+    "jsxFactory": "h",
+    "experimentalDecorators": true,
+    "strictFunctionTypes": false,
+    "jsx": "preserve",
+    "target": "es5",
+    "allowSyntheticDefaultImports": true,
+    "lib": ["es2015", "dom"],
+    "noImplicitAny": false // 是否在表达式和声明上有隐含的any类型时报错
+  }
+}
