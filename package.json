@@ -1,6 +1,6 @@
 {
   "name": "vue-skeleton-component",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "vue通用的骨架屏展示解决方案",
   "main": "dist/bundle.js",
   "scripts": {
