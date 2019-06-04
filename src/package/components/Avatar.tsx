@@ -3,11 +3,11 @@ import BaseComponent from '../BaseComponent'
 import style from '../style/style.less'
 
 @Component
-class Avatar extends BaseComponent {
-  public static componentName: string = 'Avatar'
+class avatar extends BaseComponent {
+  public static componentName: string = 'avatar'
   // tslint:disable-next-line:no-shadowed-variable
-  public static install = Vue => Vue.component(Avatar.componentName, Avatar)
-  public name: string = 'Avatar'
+  public static install = Vue => Vue.component(avatar.componentName, avatar)
+  public name: string = 'avatar'
   public render(h) {
     const defaultSize = 40
     const sizeMap = {
@@ -34,7 +34,7 @@ class Avatar extends BaseComponent {
     const styleC = {
       width: sizeMap[size] + 'px',
       height: sizeMap[size] + 'px',
-      borderRadius: shape === 'circle' ? '50%' : '0',
+      borderRadius: shape === 'CircleCom' ? '50%' : '0',
       overflow: 'hidden'
     }
     const styleN = {
@@ -51,4 +51,4 @@ class Avatar extends BaseComponent {
   }
 }
 
-export default Avatar
+export default avatar

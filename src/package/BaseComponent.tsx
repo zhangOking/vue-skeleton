@@ -8,7 +8,7 @@ import {Vue, Component, Prop} from 'vue-property-decorator'
  */
 @Component
 class Base extends Vue {
-  public static componentName: string = 'Skeleton'
+  public static componentName: string = 'skeleton'
   // tslint:disable-next-line:no-shadowed-variable
   public static install = Vue => Vue.component(Base.componentName, Base)
 

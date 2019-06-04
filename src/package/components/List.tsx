@@ -3,11 +3,11 @@ import BaseComponent from '../BaseComponent'
 import style from '../style/style.less'
 
 @Component
-class List extends BaseComponent {
-  public static componentName: string = 'List'
+class list extends BaseComponent {
+  public static componentName: string = 'list'
   // tslint:disable-next-line:no-shadowed-variable
-  public static install = Vue => Vue.component(List.componentName, List)
-  public name: string = 'List'
+  public static install = Vue => Vue.component(list.componentName, list)
+  public name: string = 'list'
   public render(h) {
     const {type, options, title, loading, active} = this.$props
     const {row, lineHight, avatar, width} = options
@@ -46,7 +46,7 @@ class List extends BaseComponent {
       avatarStyle = {
         width: sizeMap[size] + 'px',
         height: sizeMap[size] + 'px',
-        borderRadius: shape === 'circle' ? '50%' : '0',
+        borderRadius: shape === 'CircleCom' ? '50%' : '0',
         overflow: 'hidden'
       }
     }
@@ -75,4 +75,4 @@ class List extends BaseComponent {
   }
 }
 
-export default List
+export default list

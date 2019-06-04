@@ -6,11 +6,11 @@ import style from '../style/style.less'
 import List from '../utils'
 
 @Component
-class CustomList extends BaseComponent {
-    public static componentName: string = 'CustomList'
+class customlist extends BaseComponent {
+    public static componentName: string = 'customlist'
     // tslint:disable-next-line:no-shadowed-variable
-    public static install = Vue => Vue.component(CustomList.componentName, CustomList)
-    public name: string = 'CustomList'
+    public static install = Vue => Vue.component(customlist.componentName, customlist)
+    public name: string = 'customlist'
     public render(h) {
         const { type, options, title, loading, active, childrenOption } = this.$props
         const { width, height } = options
@@ -21,23 +21,22 @@ class CustomList extends BaseComponent {
 
         let _a: Array<any> = []
         a.forEach(e => {
-            let propsData = e.componentOptions.propsData;
-            let { rules } = propsData
-            if (rules) {
-                let rArr = typeof rules === 'string' ? rules.split(',') : rules,
+            // let propsData = e.componentOptions.propsData;
+            if (e.rules) {
+                let rArr = typeof e.rules === 'string' ? e.rules.split(',') : e.rules,
                     base = rArr[0]
                 rArr.forEach(element => {
                     rulesArr = rulesArr.join(',').replace(new RegExp(element.trim(), 'g'), base).split(',')
                     list.remove(element)
                 });
                 _a.push({
-                    vNode: e,
-                    position: base
+                    position: base,
+                    ...e
                 })
             } else {
                 _a.push({
-                    vNode: e,
-                    position: null
+                    position: null,
+                    ...e
                 })
                 list.next()
             }
@@ -49,12 +48,13 @@ class CustomList extends BaseComponent {
                            grid-template-rows: repeat(3, 33.3%);
                            grid-template-columns: repeat(3, 33.3%);
                            grid-template-areas: "${rulesArr.slice(0, 3).join(',').replace(/\,/gi, ' ')}" "${rulesArr.slice(3, 6).join(',').replace(/\,/gi, ' ')}" "${rulesArr.slice(6, 9).join(',').replace(/\,/gi, ' ')}"`
-
         return (
             <div style={tmpstring} class={[style.customList]}>
                 {
                     _a.map(e => (
-                        <div style={{width: '100%', height: '100%', 'grid-area': e.position}}>{e.vNode}</div>
+                        <div style={{width: '100%', height: '100%', 'grid-area': e.position}}>
+                            <Skeleton type={e.type} active={e.active} options={e.options || {}} />
+                        </div>
                     ))
                 }
             </div>
@@ -62,4 +62,4 @@ class CustomList extends BaseComponent {
     }
 }
 
-export default CustomList
+export default customlist

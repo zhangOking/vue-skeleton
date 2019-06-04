@@ -4,11 +4,11 @@ import Vue from 'vue'
 import style from '../style/style.less'
 
 @Component
-class CardCom extends BaseComponent {
-  public static componentName: string = 'Card'
+class cardCom extends BaseComponent {
+  public static componentName: string = 'card'
   // tslint:disable-next-line:no-shadowed-variable
-  public static install = Vue => Vue.component(CardCom.componentName, CardCom)
-  public name: string = 'Card'
+  public static install = Vue => Vue.component(cardCom.componentName, cardCom)
+  public name: string = 'card'
   public mounted() {
     // tslint:disable-next-line:no-console
   }
@@ -31,4 +31,4 @@ class CardCom extends BaseComponent {
   }
 }
 
-export default CardCom
+export default cardCom

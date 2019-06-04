@@ -3,11 +3,11 @@ import BaseComponent from '../BaseComponent'
 import style from '../style/style.less'
 
 @Component
-class Rectangular extends BaseComponent {
-  public static componentName: string = 'Rectangular'
+class rectangular extends BaseComponent {
+  public static componentName: string = 'rectangular'
   // tslint:disable-next-line:no-shadowed-variable
-  public static install = Vue => Vue.component(Rectangular.componentName, Rectangular)
-  public name: string = 'Rectangular'
+  public static install = Vue => Vue.component(rectangular.componentName, rectangular)
+  public name: string = 'rectangular'
   public render(h) {
     const {type, options, title, loading, active} = this.$props
     const {width, height} = options
@@ -23,4 +23,4 @@ class Rectangular extends BaseComponent {
   }
 }
 
-export default Rectangular
+export default rectangular

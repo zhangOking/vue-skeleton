@@ -3,7 +3,6 @@ import BaseComponent from './BaseComponent'
 import Rectangular from './components/Rect'
 import List from './components/List'
 import Avatar from './components/Avatar'
-import Article from './components/Article'
 import CustomList from './components/Custom'
 import StraightLine from './components/StraightLine'
 import CircleCom from './components/Circle'
@@ -19,10 +18,10 @@ import style from './style/style.less'
  * title?: Boolean
  */
 @Component
-class Skeleton extends BaseComponent {
-  public static componentName: string = 'Skeleton'
+class skeleton extends BaseComponent {
+  public static componentName: string = 'skeleton'
   // tslint:disable-next-line:no-shadowed-variable
-  public static install = Vue => Vue.component(Skeleton.componentName, Skeleton)
+  public static install = Vue => Vue.component(skeleton.componentName, skeleton)
 
   public render(h) {
     const { type, options, title, loading, active, childrenOption, start, center, end, rules } = this.$props
@@ -44,14 +43,6 @@ class Skeleton extends BaseComponent {
             }
             {
               type === 'list' && <List
-                title={title}
-                loading={loading}
-                active={active}
-                options={options}
-              />
-            }
-            {
-              type === 'article' && <Article
                 title={title}
                 loading={loading}
                 active={active}
@@ -85,7 +76,7 @@ class Skeleton extends BaseComponent {
               />
             }
             {
-                type === 'circle' && <CircleCom
+                type === 'circlecom' && <CircleCom
                 title={title}
                 rules={rules}
                 loading={loading}
@@ -103,7 +94,7 @@ class Skeleton extends BaseComponent {
               />
             }
             {
-                type === 'listCom' && <ListCom
+                type === 'listcom' && <ListCom
                 title={title}
                 rules={rules}
                 loading={loading}
@@ -118,4 +109,4 @@ class Skeleton extends BaseComponent {
   }
 }
 
-export default Skeleton
+export default skeleton

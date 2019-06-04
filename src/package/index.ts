@@ -1,22 +1,21 @@
-import Skeleton from './Skeleton'
-export { default as Article } from './components/Article'
-import Avatar from './components/Avatar'
-import Rect from './components/Rect'
-import List from './components/List'
-import Custom from './components/Custom'
-import StraightLine from './components/StraightLine'
-import Circle from './components/Circle'
-import Card from './components/Card'
-import ListCom from './components/ListCom'
+import skeleton from './Skeleton'
+import avatar from './components/Avatar'
+import rect from './components/Rect'
+import list from './components/List'
+import custom from './components/Custom'
+import straightline from './components/StraightLine'
+import circlecom from './components/Circle'
+import card from './components/Card'
+import listcom from './components/ListCom'
 
 export {
-  Avatar,
-  Rect,
-  List,
-  Custom,
-  StraightLine,
-  Circle,
-  Card,
-  ListCom
+  avatar,
+  rect,
+  list,
+  custom,
+  straightline,
+  circlecom,
+  card,
+  listcom
 }
-export default Skeleton
+export default skeleton

@@ -4,11 +4,11 @@ import Vue from 'vue'
 import style from '../style/style.less'
 
 @Component
-class CircleCom extends BaseComponent {
-  public static componentName: string = 'Circle'
+class circlecom extends BaseComponent {
+  public static componentName: string = 'circleCom'
   // tslint:disable-next-line:no-shadowed-variable
-  public static install = Vue => Vue.component(CircleCom.componentName, CircleCom)
-  public name: string = 'CircleCom'
+  public static install = Vue => Vue.component(circlecom.componentName, circlecom)
+  public name: string = 'circlecom'
   public mounted() {
     // tslint:disable-next-line:no-console
   }
@@ -29,7 +29,7 @@ class CircleCom extends BaseComponent {
       margin: 'auto'
     }
     return (
-      <div class={[style.circle]}>
+      <div class={[style.CircleCom]}>
         <div style={[styleC]} class={[active ? style.progActive : style.prog]}></div>
         {/* <div style={[flag === 'center' ? styleC : '']} class={[active ? style.progActive : style.prog]}></div>
         <div style={[flag === 'end' ? styleC : '']} class={[active ? style.progActive : style.prog]}></div> */}
@@ -39,4 +39,4 @@ class CircleCom extends BaseComponent {
   }
 }
 
-export default CircleCom
+export default circlecom

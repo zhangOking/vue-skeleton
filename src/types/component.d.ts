@@ -4,13 +4,12 @@ import { type } from 'os';
 type Type = 
   'rect' |
   'list' |
-  'article' |
   'avatar' |
   'custom' | 
   'straightLine' |
-  'circle' | 
+  'circlecom' | 
   'card' |
-  'listCom'
+  'listcom'
 
 type Size =
   'large' |
@@ -24,7 +23,7 @@ type Position =
   'bottom'
 
 type Shape =
-  'circle' |
+  'circlecom' |
   'square'
 /* 矩形骨架屏配置项 */
 interface RectOptions {
@@ -45,7 +44,7 @@ interface ListOptions {
   size?: Size,
   row: number,
   lineHight: number,
-  width: number,
+  width?: number,
   avatar: AvatarOptions | null
 }
 
@@ -53,7 +52,7 @@ interface ListOptions {
 interface ArticleOptions {
   size?: Size,
   lineHight: number,
-  width: number,
+  width?: number,
   row: number
 }
 

@@ -1,14 +1,14 @@
-import Skeleton, { Article, Avatar, List, Custom, StraightLine, Card, Circle, ListCom } from './package/index';
+import skeleton, { avatar, list, custom, straightline, card, circlecom, listcom } from './package/index';
 
 const components = [
-  Article,
-  Avatar,
-  Card,
-  List,
-  Custom,
-  Circle,
-  ListCom,
-  StraightLine
+  skeleton,
+  avatar,
+  card,
+  list,
+  custom,
+  circlecom,
+  listcom,
+  straightline
 ]
 
 const install = (Vue, opts = {}) => {
@@ -24,5 +24,5 @@ if (typeof window !== 'undefined' && window.Vue) {
 
 export default {
   install,
-  Skeleton,
+  skeleton,
 }
