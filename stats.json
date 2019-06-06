@@ -8,13 +8,13 @@
     "./src/package/components/List.tsx\nModule Warning (from ./node_modules/tslint-loader/index.js):\n[6, 7]: Class name must be in pascal case\n\n @ ./src/package/index.ts 6:0-37 12:0-78\n @ ./src/main.ts",
     "./src/package/components/Circle.tsx\nModule Warning (from ./node_modules/tslint-loader/index.js):\n[7, 7]: Class name must be in pascal case\n[23, 7]: Unquoted property 'width' found.\n[24, 7]: Unquoted property 'height' found.\n[26, 7]: Unquoted property 'background' found.\n[28, 7]: Unquoted property 'overflow' found.\n[29, 7]: Unquoted property 'margin' found.\n[23, 7]: Expected property shorthand in object literal ('{width}').\n[17, 34]: missing whitespace\n\n @ ./src/package/index.ts 9:0-44 12:0-78\n @ ./src/main.ts",
     "./src/package/components/Card.tsx\nModule Warning (from ./node_modules/tslint-loader/index.js):\n[7, 7]: Class name must be in pascal case\n[34, 23]: file should end with a newline\n[20, 7]: Expected property shorthand in object literal ('{width}').\n[21, 7]: Expected property shorthand in object literal ('{height}').\n[27, 39]: \" should be '\n\n @ ./src/package/index.ts 10:0-37 12:0-78\n @ ./src/main.ts",
-    "./src/package/components/ListCom.tsx\nModule Warning (from ./node_modules/tslint-loader/index.js):\n[7, 7]: Class name must be in pascal case\n[39, 23]: file should end with a newline\n[26, 21]: Expected property shorthand in object literal ('{height}').\n[19, 19]: \" should be '\n\n @ ./src/package/index.ts 11:0-43 12:0-78\n @ ./src/main.ts",
+    "./src/package/components/ListCom.tsx\nModule Warning (from ./node_modules/tslint-loader/index.js):\n[7, 7]: Class name must be in pascal case\n[41, 23]: file should end with a newline\n[21, 21]: Expected property shorthand in object literal ('{width}').\n[28, 21]: Expected property shorthand in object literal ('{height}').\n\n @ ./src/package/index.ts 11:0-43 12:0-78\n @ ./src/main.ts",
     "./src/package/components/StraightLine.tsx\nModule Warning (from ./node_modules/tslint-loader/index.js):\n[8, 7]: Class name must be in pascal case\n[16, 13]: Identifier 'n' is never reassigned; use 'const' instead of 'let'.\n[15, 24]: missing whitespace\n[15, 38]: missing whitespace\n[15, 55]: missing whitespace\n\n @ ./src/package/index.ts 8:0-53 12:0-78\n @ ./src/main.ts"
   ],
   "version": "4.29.6",
-  "hash": "c16917bd3bcbad803da1",
-  "time": 3239,
-  "builtAt": 1559651365184,
+  "hash": "882174729af3225347ac",
+  "time": 4251,
+  "builtAt": 1559814200745,
   "publicPath": "",
   "outputPath": "/Users/enzezhang/githubList/vue-skeleton/dist",
   "assetsByChunkName": {
@@ -23,7 +23,7 @@
   "assets": [
     {
       "name": "bundle.js",
-      "size": 30496,
+      "size": 30484,
       "chunks": [
         0
       ],
@@ -64,14 +64,14 @@
       "rendered": true,
       "initial": true,
       "entry": true,
-      "size": 71116,
+      "size": 71198,
       "names": [
         "main"
       ],
       "files": [
         "bundle.js"
       ],
-      "hash": "aaa7d244acb2b3354daf",
+      "hash": "70ee95befc233cc102df",
       "siblings": [],
       "parents": [],
       "children": [],
@@ -100,8 +100,8 @@
               "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/main.ts",
               "name": "./src/main.ts",
               "profile": {
-                "factory": 39,
-                "building": 1824
+                "factory": 41,
+                "building": 1986
               }
             },
             {
@@ -109,8 +109,8 @@
               "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/package/index.ts",
               "name": "./src/package/index.ts",
               "profile": {
-                "factory": 4,
-                "building": 26
+                "factory": 15,
+                "building": 39
               }
             },
             {
@@ -119,15 +119,15 @@
               "name": "./src/package/Skeleton.tsx",
               "profile": {
                 "factory": 6,
-                "building": 737,
-                "dependencies": 530
+                "building": 716,
+                "dependencies": 508
               }
             }
           ],
           "profile": {
-            "factory": 613,
-            "building": 73,
-            "dependencies": 23
+            "factory": 589,
+            "building": 128,
+            "dependencies": 21
           },
           "failed": false,
           "errors": 0,
@@ -249,15 +249,6 @@
               "moduleName": "./src/main.ts + 13 modules",
               "type": "harmony import specifier",
               "userRequest": "../style/style.less",
-              "loc": "85:16-21"
-            },
-            {
-              "moduleId": 5,
-              "moduleIdentifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/main.ts e61c8208f83b361920653c0fcde8f35e",
-              "module": "./src/main.ts + 13 modules",
-              "moduleName": "./src/main.ts + 13 modules",
-              "type": "harmony import specifier",
-              "userRequest": "../style/style.less",
               "loc": "89:16-21"
             },
             {
@@ -294,16 +285,7 @@
               "moduleName": "./src/main.ts + 13 modules",
               "type": "harmony import specifier",
               "userRequest": "../style/style.less",
-              "loc": "91:27-32"
-            },
-            {
-              "moduleId": 5,
-              "moduleIdentifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/main.ts e61c8208f83b361920653c0fcde8f35e",
-              "module": "./src/main.ts + 13 modules",
-              "moduleName": "./src/main.ts + 13 modules",
-              "type": "harmony import specifier",
-              "userRequest": "../style/style.less",
-              "loc": "91:46-51"
+              "loc": "90:16-21"
             },
             {
               "moduleId": 5,
@@ -331,6 +313,24 @@
               "type": "harmony import specifier",
               "userRequest": "../style/style.less",
               "loc": "97:16-21"
+            },
+            {
+              "moduleId": 5,
+              "moduleIdentifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/main.ts e61c8208f83b361920653c0fcde8f35e",
+              "module": "./src/main.ts + 13 modules",
+              "moduleName": "./src/main.ts + 13 modules",
+              "type": "harmony import specifier",
+              "userRequest": "../style/style.less",
+              "loc": "99:27-32"
+            },
+            {
+              "moduleId": 5,
+              "moduleIdentifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/main.ts e61c8208f83b361920653c0fcde8f35e",
+              "module": "./src/main.ts + 13 modules",
+              "moduleName": "./src/main.ts + 13 modules",
+              "type": "harmony import specifier",
+              "userRequest": "../style/style.less",
+              "loc": "99:46-51"
             },
             {
               "moduleId": 5,
@@ -483,8 +483,8 @@
               "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/main.ts",
               "name": "./src/main.ts",
               "profile": {
-                "factory": 39,
-                "building": 1824
+                "factory": 41,
+                "building": 1986
               }
             },
             {
@@ -492,8 +492,8 @@
               "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/package/index.ts",
               "name": "./src/package/index.ts",
               "profile": {
-                "factory": 4,
-                "building": 26
+                "factory": 15,
+                "building": 39
               }
             },
             {
@@ -502,8 +502,8 @@
               "name": "./src/package/Skeleton.tsx",
               "profile": {
                 "factory": 6,
-                "building": 737,
-                "dependencies": 530
+                "building": 716,
+                "dependencies": 508
               }
             },
             {
@@ -511,15 +511,15 @@
               "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/vue-property-decorator/lib/vue-property-decorator.js",
               "name": "./node_modules/vue-property-decorator/lib/vue-property-decorator.js",
               "profile": {
-                "factory": 613,
-                "building": 73,
-                "dependencies": 23
+                "factory": 589,
+                "building": 128,
+                "dependencies": 21
               }
             }
           ],
           "profile": {
-            "factory": 151,
-            "building": 7,
+            "factory": 152,
+            "building": 9,
             "dependencies": 0
           },
           "failed": false,
@@ -633,8 +633,8 @@
               "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/main.ts",
               "name": "./src/main.ts",
               "profile": {
-                "factory": 39,
-                "building": 1824
+                "factory": 41,
+                "building": 1986
               }
             },
             {
@@ -642,8 +642,8 @@
               "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/package/index.ts",
               "name": "./src/package/index.ts",
               "profile": {
-                "factory": 4,
-                "building": 26
+                "factory": 15,
+                "building": 39
               }
             },
             {
@@ -652,8 +652,8 @@
               "name": "./src/package/Skeleton.tsx",
               "profile": {
                 "factory": 6,
-                "building": 737,
-                "dependencies": 530
+                "building": 716,
+                "dependencies": 508
               }
             },
             {
@@ -661,15 +661,15 @@
               "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/vue-property-decorator/lib/vue-property-decorator.js",
               "name": "./node_modules/vue-property-decorator/lib/vue-property-decorator.js",
               "profile": {
-                "factory": 613,
-                "building": 73,
-                "dependencies": 23
+                "factory": 589,
+                "building": 128,
+                "dependencies": 21
               }
             }
           ],
           "profile": {
-            "factory": 151,
-            "building": 7,
+            "factory": 152,
+            "building": 9,
             "dependencies": 0
           },
           "failed": false,
@@ -718,7 +718,7 @@
           "name": "./node_modules/css-loader/dist/cjs.js??ref--1-1!./node_modules/postcss-loader/src??ref--1-2!./node_modules/less-loader/dist/cjs.js!./src/package/style/style.less",
           "index": 9,
           "index2": 5,
-          "size": 2720,
+          "size": 2627,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -735,8 +735,8 @@
               "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/main.ts",
               "name": "./src/main.ts",
               "profile": {
-                "factory": 39,
-                "building": 1824
+                "factory": 41,
+                "building": 1986
               }
             },
             {
@@ -744,8 +744,8 @@
               "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/package/index.ts",
               "name": "./src/package/index.ts",
               "profile": {
-                "factory": 4,
-                "building": 26
+                "factory": 15,
+                "building": 39
               }
             },
             {
@@ -754,8 +754,8 @@
               "name": "./src/package/Skeleton.tsx",
               "profile": {
                 "factory": 6,
-                "building": 737,
-                "dependencies": 530
+                "building": 716,
+                "dependencies": 508
               }
             },
             {
@@ -763,15 +763,15 @@
               "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/vue-style-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/node_modules/css-loader/dist/cjs.js??ref--1-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/postcss-loader/src/index.js??ref--1-2!/Users/enzezhang/githubList/vue-skeleton/node_modules/less-loader/dist/cjs.js!/Users/enzezhang/githubList/vue-skeleton/src/package/style/style.less",
               "name": "./src/package/style/style.less",
               "profile": {
-                "factory": 613,
-                "building": 73,
-                "dependencies": 23
+                "factory": 589,
+                "building": 128,
+                "dependencies": 21
               }
             }
           ],
           "profile": {
-            "factory": 68,
-            "building": 145
+            "factory": 122,
+            "building": 146
           },
           "failed": false,
           "errors": 0,
@@ -794,7 +794,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 4,
-          "source": "exports = module.exports = require(\"../../../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.id, \".contianer_S8Y9lJLI {\\n  height: 100%;\\n}\\n.contianer_S8Y9lJLI * {\\n  margin: 0;\\n  padding: 0;\\n  list-style: none;\\n}\\n.prog_2och0xgT {\\n  position: relative;\\n}\\n.progActive_3tSycGMF {\\n  -webkit-transition: all 0.25s ease-in-out;\\n  -o-transition: all 0.25s ease-in-out;\\n  transition: all 0.25s ease-in-out;\\n  background: #e6e6e6;\\n  position: relative;\\n  list-style: none;\\n}\\n.progActive_3tSycGMF:after {\\n  content: \\\"\\\";\\n  display: block;\\n  height: 100%;\\n  width: 100%;\\n  position: absolute;\\n  left: 0;\\n  top: 0;\\n  background: -o-linear-gradient(315deg, #f2f2f2 25%, #ffffff 37%, #f2f2f2 63%);\\n  background: linear-gradient(135deg, #f2f2f2 25%, #ffffff 37%, #f2f2f2 63%);\\n  background-size: 400% 100%;\\n  -webkit-animation: progshow_3s0jwAKZ 1.4s ease infinite;\\n          animation: progshow_3s0jwAKZ 1.4s ease infinite;\\n}\\n@-webkit-keyframes progshow_3s0jwAKZ {\\n  0% {\\n    background-position: 100% 50%;\\n  }\\n  100% {\\n    background-position: 0 50%;\\n  }\\n}\\n@keyframes progshow_3s0jwAKZ {\\n  0% {\\n    background-position: 100% 50%;\\n  }\\n  100% {\\n    background-position: 0 50%;\\n  }\\n}\\n.title_2cRrtpZ8 {\\n  width: 200px;\\n  height: 30px;\\n  margin-bottom: 20px;\\n}\\n.CircleCom_OPdPNcc3 {\\n  width: 100%;\\n  height: 100%;\\n  display: grid;\\n  grid-template-columns: 100%;\\n  grid-template-rows: 100%;\\n  -webkit-box-align: center;\\n      -ms-flex-align: center;\\n          align-items: center;\\n  overflow: hidden;\\n  padding: 5%;\\n  -webkit-box-sizing: border-box;\\n          box-sizing: border-box;\\n}\\n.card_2ubg7lLl {\\n  width: 100%;\\n  height: 100%;\\n  display: grid;\\n  grid-template-columns: 100%;\\n  grid-template-rows: 100%;\\n  -webkit-box-align: center;\\n      -ms-flex-align: center;\\n          align-items: center;\\n  padding: 5%;\\n  -webkit-box-sizing: border-box;\\n          box-sizing: border-box;\\n  overflow: hidden;\\n}\\n.listCom_2QHM1mDh {\\n  width: 100%;\\n  height: 100%;\\n  display: grid;\\n  grid-template-columns: 100%;\\n  grid-template-rows: 100%;\\n  -webkit-box-align: center;\\n      -ms-flex-align: center;\\n          align-items: center;\\n  overflow: hidden;\\n  padding: 5%;\\n  -webkit-box-sizing: border-box;\\n          box-sizing: border-box;\\n}\\n.customList_6KpNFJxi {\\n  display: grid;\\n}\\n\", \"\"]);\n\n// Exports\nexports.locals = {\n\t\"contianer\": \"contianer_S8Y9lJLI\",\n\t\"prog\": \"prog_2och0xgT\",\n\t\"progActive\": \"progActive_3tSycGMF\",\n\t\"progshow\": \"progshow_3s0jwAKZ\",\n\t\"title\": \"title_2cRrtpZ8\",\n\t\"CircleCom\": \"CircleCom_OPdPNcc3\",\n\t\"card\": \"card_2ubg7lLl\",\n\t\"listCom\": \"listCom_2QHM1mDh\",\n\t\"customList\": \"customList_6KpNFJxi\"\n};"
+          "source": "exports = module.exports = require(\"../../../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.id, \".contianer_S8Y9lJLI {\\n  height: 100%;\\n}\\n.contianer_S8Y9lJLI * {\\n  margin: 0;\\n  padding: 0;\\n  list-style: none;\\n}\\n.prog_2och0xgT {\\n  position: relative;\\n}\\n.progActive_3tSycGMF {\\n  -webkit-transition: all 0.25s ease-in-out;\\n  -o-transition: all 0.25s ease-in-out;\\n  transition: all 0.25s ease-in-out;\\n  background: #e6e6e6;\\n  position: relative;\\n  list-style: none;\\n}\\n.progActive_3tSycGMF:after {\\n  content: \\\"\\\";\\n  display: block;\\n  height: 100%;\\n  width: 100%;\\n  position: absolute;\\n  left: 0;\\n  top: 0;\\n  background: -o-linear-gradient(315deg, #f2f2f2 25%, #ffffff 37%, #f2f2f2 63%);\\n  background: linear-gradient(135deg, #f2f2f2 25%, #ffffff 37%, #f2f2f2 63%);\\n  background-size: 400% 100%;\\n  -webkit-animation: progshow_3s0jwAKZ 1.4s ease infinite;\\n          animation: progshow_3s0jwAKZ 1.4s ease infinite;\\n}\\n@-webkit-keyframes progshow_3s0jwAKZ {\\n  0% {\\n    background-position: 100% 50%;\\n  }\\n  100% {\\n    background-position: 0 50%;\\n  }\\n}\\n@keyframes progshow_3s0jwAKZ {\\n  0% {\\n    background-position: 100% 50%;\\n  }\\n  100% {\\n    background-position: 0 50%;\\n  }\\n}\\n.title_2cRrtpZ8 {\\n  width: 200px;\\n  height: 30px;\\n  margin-bottom: 20px;\\n}\\n.CircleCom_OPdPNcc3 {\\n  width: 100%;\\n  height: 100%;\\n  display: grid;\\n  grid-template-columns: 100%;\\n  grid-template-rows: 100%;\\n  -webkit-box-align: center;\\n      -ms-flex-align: center;\\n          align-items: center;\\n  overflow: hidden;\\n  padding: 5%;\\n  -webkit-box-sizing: border-box;\\n          box-sizing: border-box;\\n}\\n.card_2ubg7lLl {\\n  width: 100%;\\n  height: 100%;\\n  display: grid;\\n  grid-template-columns: 100%;\\n  grid-template-rows: 100%;\\n  -webkit-box-align: center;\\n      -ms-flex-align: center;\\n          align-items: center;\\n  padding: 5%;\\n  -webkit-box-sizing: border-box;\\n          box-sizing: border-box;\\n  overflow: hidden;\\n}\\n.listCom_2QHM1mDh {\\n  width: 100%;\\n  height: 100%;\\n  display: grid;\\n  grid-template-columns: 100%;\\n  grid-template-rows: 100%;\\n  overflow: hidden;\\n  padding: 5%;\\n  -webkit-box-sizing: border-box;\\n          box-sizing: border-box;\\n}\\n.customList_6KpNFJxi {\\n  display: grid;\\n}\\n\", \"\"]);\n\n// Exports\nexports.locals = {\n\t\"contianer\": \"contianer_S8Y9lJLI\",\n\t\"prog\": \"prog_2och0xgT\",\n\t\"progActive\": \"progActive_3tSycGMF\",\n\t\"progshow\": \"progshow_3s0jwAKZ\",\n\t\"title\": \"title_2cRrtpZ8\",\n\t\"CircleCom\": \"CircleCom_OPdPNcc3\",\n\t\"card\": \"card_2ubg7lLl\",\n\t\"listCom\": \"listCom_2QHM1mDh\",\n\t\"customList\": \"customList_6KpNFJxi\"\n};"
         },
         {
           "id": 4,
@@ -819,8 +819,8 @@
               "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/main.ts",
               "name": "./src/main.ts",
               "profile": {
-                "factory": 39,
-                "building": 1824
+                "factory": 41,
+                "building": 1986
               }
             },
             {
@@ -828,8 +828,8 @@
               "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/package/index.ts",
               "name": "./src/package/index.ts",
               "profile": {
-                "factory": 4,
-                "building": 26
+                "factory": 15,
+                "building": 39
               }
             },
             {
@@ -838,8 +838,8 @@
               "name": "./src/package/Skeleton.tsx",
               "profile": {
                 "factory": 6,
-                "building": 737,
-                "dependencies": 530
+                "building": 716,
+                "dependencies": 508
               }
             },
             {
@@ -847,9 +847,9 @@
               "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/vue-style-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/node_modules/css-loader/dist/cjs.js??ref--1-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/postcss-loader/src/index.js??ref--1-2!/Users/enzezhang/githubList/vue-skeleton/node_modules/less-loader/dist/cjs.js!/Users/enzezhang/githubList/vue-skeleton/src/package/style/style.less",
               "name": "./src/package/style/style.less",
               "profile": {
-                "factory": 613,
-                "building": 73,
-                "dependencies": 23
+                "factory": 589,
+                "building": 128,
+                "dependencies": 21
               }
             },
             {
@@ -857,14 +857,14 @@
               "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/css-loader/dist/cjs.js??ref--1-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/postcss-loader/src/index.js??ref--1-2!/Users/enzezhang/githubList/vue-skeleton/node_modules/less-loader/dist/cjs.js!/Users/enzezhang/githubList/vue-skeleton/src/package/style/style.less",
               "name": "./node_modules/css-loader/dist/cjs.js??ref--1-1!./node_modules/postcss-loader/src??ref--1-2!./node_modules/less-loader/dist/cjs.js!./src/package/style/style.less",
               "profile": {
-                "factory": 68,
-                "building": 145
+                "factory": 122,
+                "building": 146
               }
             }
           ],
           "profile": {
-            "factory": 15,
-            "building": 2
+            "factory": 1,
+            "building": 11
           },
           "failed": false,
           "errors": 0,
@@ -895,7 +895,7 @@
           "name": "./src/main.ts + 13 modules",
           "index": 0,
           "index2": 20,
-          "size": 47856,
+          "size": 48031,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -950,8 +950,8 @@
               "issuerName": null,
               "issuerPath": null,
               "profile": {
-                "factory": 39,
-                "building": 1824
+                "factory": 41,
+                "building": 1986
               },
               "failed": false,
               "errors": 0,
@@ -999,14 +999,14 @@
                   "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/main.ts",
                   "name": "./src/main.ts",
                   "profile": {
-                    "factory": 39,
-                    "building": 1824
+                    "factory": 41,
+                    "building": 1986
                   }
                 }
               ],
               "profile": {
-                "factory": 4,
-                "building": 26
+                "factory": 15,
+                "building": 39
               },
               "failed": false,
               "errors": 0,
@@ -1168,8 +1168,8 @@
                   "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/main.ts",
                   "name": "./src/main.ts",
                   "profile": {
-                    "factory": 39,
-                    "building": 1824
+                    "factory": 41,
+                    "building": 1986
                   }
                 },
                 {
@@ -1177,15 +1177,15 @@
                   "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/package/index.ts",
                   "name": "./src/package/index.ts",
                   "profile": {
-                    "factory": 4,
-                    "building": 26
+                    "factory": 15,
+                    "building": 39
                   }
                 }
               ],
               "profile": {
                 "factory": 6,
-                "building": 737,
-                "dependencies": 530
+                "building": 716,
+                "dependencies": 508
               },
               "failed": false,
               "errors": 0,
@@ -1260,8 +1260,8 @@
                   "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/main.ts",
                   "name": "./src/main.ts",
                   "profile": {
-                    "factory": 39,
-                    "building": 1824
+                    "factory": 41,
+                    "building": 1986
                   }
                 },
                 {
@@ -1269,15 +1269,15 @@
                   "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/package/index.ts",
                   "name": "./src/package/index.ts",
                   "profile": {
-                    "factory": 4,
-                    "building": 26
+                    "factory": 15,
+                    "building": 39
                   }
                 }
               ],
               "profile": {
                 "factory": 6,
-                "building": 737,
-                "dependencies": 530
+                "building": 716,
+                "dependencies": 508
               },
               "failed": false,
               "errors": 0,
@@ -1352,8 +1352,8 @@
                   "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/main.ts",
                   "name": "./src/main.ts",
                   "profile": {
-                    "factory": 39,
-                    "building": 1824
+                    "factory": 41,
+                    "building": 1986
                   }
                 },
                 {
@@ -1361,15 +1361,15 @@
                   "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/package/index.ts",
                   "name": "./src/package/index.ts",
                   "profile": {
-                    "factory": 4,
-                    "building": 26
+                    "factory": 15,
+                    "building": 39
                   }
                 }
               ],
               "profile": {
                 "factory": 6,
-                "building": 737,
-                "dependencies": 530
+                "building": 716,
+                "dependencies": 508
               },
               "failed": false,
               "errors": 0,
@@ -1444,8 +1444,8 @@
                   "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/main.ts",
                   "name": "./src/main.ts",
                   "profile": {
-                    "factory": 39,
-                    "building": 1824
+                    "factory": 41,
+                    "building": 1986
                   }
                 },
                 {
@@ -1453,15 +1453,15 @@
                   "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/package/index.ts",
                   "name": "./src/package/index.ts",
                   "profile": {
-                    "factory": 4,
-                    "building": 26
+                    "factory": 15,
+                    "building": 39
                   }
                 }
               ],
               "profile": {
                 "factory": 6,
-                "building": 737,
-                "dependencies": 530
+                "building": 716,
+                "dependencies": 508
               },
               "failed": false,
               "errors": 0,
@@ -1536,8 +1536,8 @@
                   "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/main.ts",
                   "name": "./src/main.ts",
                   "profile": {
-                    "factory": 39,
-                    "building": 1824
+                    "factory": 41,
+                    "building": 1986
                   }
                 },
                 {
@@ -1545,15 +1545,15 @@
                   "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/package/index.ts",
                   "name": "./src/package/index.ts",
                   "profile": {
-                    "factory": 4,
-                    "building": 26
+                    "factory": 15,
+                    "building": 39
                   }
                 }
               ],
               "profile": {
                 "factory": 6,
-                "building": 737,
-                "dependencies": 530
+                "building": 716,
+                "dependencies": 508
               },
               "failed": false,
               "errors": 0,
@@ -1628,8 +1628,8 @@
                   "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/main.ts",
                   "name": "./src/main.ts",
                   "profile": {
-                    "factory": 39,
-                    "building": 1824
+                    "factory": 41,
+                    "building": 1986
                   }
                 },
                 {
@@ -1637,15 +1637,15 @@
                   "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/package/index.ts",
                   "name": "./src/package/index.ts",
                   "profile": {
-                    "factory": 4,
-                    "building": 26
+                    "factory": 15,
+                    "building": 39
                   }
                 }
               ],
               "profile": {
                 "factory": 6,
-                "building": 737,
-                "dependencies": 530
+                "building": 716,
+                "dependencies": 508
               },
               "failed": false,
               "errors": 0,
@@ -1720,8 +1720,8 @@
                   "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/main.ts",
                   "name": "./src/main.ts",
                   "profile": {
-                    "factory": 39,
-                    "building": 1824
+                    "factory": 41,
+                    "building": 1986
                   }
                 },
                 {
@@ -1729,15 +1729,15 @@
                   "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/package/index.ts",
                   "name": "./src/package/index.ts",
                   "profile": {
-                    "factory": 4,
-                    "building": 26
+                    "factory": 15,
+                    "building": 39
                   }
                 }
               ],
               "profile": {
                 "factory": 6,
-                "building": 737,
-                "dependencies": 530
+                "building": 716,
+                "dependencies": 508
               },
               "failed": false,
               "errors": 0,
@@ -1797,7 +1797,7 @@
               "name": "./src/package/components/ListCom.tsx",
               "index": 20,
               "index2": 17,
-              "size": 3612,
+              "size": 3787,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -1812,8 +1812,8 @@
                   "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/main.ts",
                   "name": "./src/main.ts",
                   "profile": {
-                    "factory": 39,
-                    "building": 1824
+                    "factory": 41,
+                    "building": 1986
                   }
                 },
                 {
@@ -1821,15 +1821,15 @@
                   "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/package/index.ts",
                   "name": "./src/package/index.ts",
                   "profile": {
-                    "factory": 4,
-                    "building": 26
+                    "factory": 15,
+                    "building": 39
                   }
                 }
               ],
               "profile": {
                 "factory": 6,
-                "building": 737,
-                "dependencies": 530
+                "building": 716,
+                "dependencies": 508
               },
               "failed": false,
               "errors": 0,
@@ -1881,7 +1881,7 @@
               ],
               "optimizationBailout": [],
               "depth": 2,
-              "source": "\"use strict\";\n\nfunction _typeof(obj) { if (typeof Symbol === \"function\" && typeof Symbol.iterator === \"symbol\") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === \"function\" && obj.constructor === Symbol && obj !== Symbol.prototype ? \"symbol\" : typeof obj; }; } return _typeof(obj); }\n\nvar __extends = this && this.__extends || function () {\n  var _extendStatics = function extendStatics(d, b) {\n    _extendStatics = Object.setPrototypeOf || {\n      __proto__: []\n    } instanceof Array && function (d, b) {\n      d.__proto__ = b;\n    } || function (d, b) {\n      for (var p in b) {\n        if (b.hasOwnProperty(p)) d[p] = b[p];\n      }\n    };\n\n    return _extendStatics(d, b);\n  };\n\n  return function (d, b) {\n    _extendStatics(d, b);\n\n    function __() {\n      this.constructor = d;\n    }\n\n    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());\n  };\n}();\n\nvar __decorate = this && this.__decorate || function (decorators, target, key, desc) {\n  var c = arguments.length,\n      r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc,\n      d;\n  if ((typeof Reflect === \"undefined\" ? \"undefined\" : _typeof(Reflect)) === \"object\" && typeof Reflect.decorate === \"function\") r = Reflect.decorate(decorators, target, key, desc);else for (var i = decorators.length - 1; i >= 0; i--) {\n    if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;\n  }\n  return c > 3 && r && Object.defineProperty(target, key, r), r;\n};\n\nimport { Component } from 'vue-property-decorator';\nimport BaseComponent from '../BaseComponent';\nimport style from '../style/style.less';\n\nvar listcom =\n/** @class */\nfunction (_super) {\n  __extends(listcom, _super);\n\n  function listcom() {\n    var _this = _super !== null && _super.apply(this, arguments) || this;\n\n    _this.name = 'listcom';\n    return _this;\n  }\n\n  listcom_1 = listcom;\n\n  listcom.prototype.render = function (h) {\n    var _a = this.$props,\n        type = _a.type,\n        _b = _a.title,\n        title = _b === void 0 ? false : _b,\n        options = _a.options,\n        _c = _a.loading,\n        loading = _c === void 0 ? false : _c,\n        _d = _a.active,\n        active = _d === void 0 ? false : _d,\n        _e = _a.start,\n        start = _e === void 0 ? true : _e,\n        _f = _a.center,\n        center = _f === void 0 ? false : _f,\n        _g = _a.end,\n        end = _g === void 0 ? false : _g;\n    var _h = options.row,\n        row = _h === void 0 ? 4 : _h,\n        _j = options.lineHight,\n        lineHight = _j === void 0 ? 20 : _j,\n        _k = options.width,\n        width = _k === void 0 ? '100%' : _k,\n        _l = options.height,\n        height = _l === void 0 ? '20px' : _l;\n    var arr = Array(+row).fill(0);\n    return h(\"div\", {\n      \"class\": [style.listCom]\n    }, [h(\"ul\", {\n      style: \"{width: 100%}\"\n    }, [arr.map(function (item, index) {\n      return h(\"li\", {\n        key: index,\n        \"class\": [active ? style.progActive : style.prog],\n        style: {\n          height: height,\n          marginBottom: lineHight * 0.6 + 'px',\n          width: index === arr.length - 1 ? '60%' : '100%'\n        }\n      });\n    })])]);\n  };\n\n  var listcom_1;\n  listcom.componentName = 'listcom'; // tslint:disable-next-line:no-shadowed-variable\n\n  listcom.install = function (Vue) {\n    return Vue.component(listcom_1.componentName, listcom_1);\n  };\n\n  listcom = listcom_1 = __decorate([Component], listcom);\n  return listcom;\n}(BaseComponent);\n\nexport default listcom;"
+              "source": "\"use strict\";\n\nfunction _typeof(obj) { if (typeof Symbol === \"function\" && typeof Symbol.iterator === \"symbol\") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === \"function\" && obj.constructor === Symbol && obj !== Symbol.prototype ? \"symbol\" : typeof obj; }; } return _typeof(obj); }\n\nvar __extends = this && this.__extends || function () {\n  var _extendStatics = function extendStatics(d, b) {\n    _extendStatics = Object.setPrototypeOf || {\n      __proto__: []\n    } instanceof Array && function (d, b) {\n      d.__proto__ = b;\n    } || function (d, b) {\n      for (var p in b) {\n        if (b.hasOwnProperty(p)) d[p] = b[p];\n      }\n    };\n\n    return _extendStatics(d, b);\n  };\n\n  return function (d, b) {\n    _extendStatics(d, b);\n\n    function __() {\n      this.constructor = d;\n    }\n\n    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());\n  };\n}();\n\nvar __decorate = this && this.__decorate || function (decorators, target, key, desc) {\n  var c = arguments.length,\n      r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc,\n      d;\n  if ((typeof Reflect === \"undefined\" ? \"undefined\" : _typeof(Reflect)) === \"object\" && typeof Reflect.decorate === \"function\") r = Reflect.decorate(decorators, target, key, desc);else for (var i = decorators.length - 1; i >= 0; i--) {\n    if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;\n  }\n  return c > 3 && r && Object.defineProperty(target, key, r), r;\n};\n\nimport { Component } from 'vue-property-decorator';\nimport BaseComponent from '../BaseComponent';\nimport style from '../style/style.less';\n\nvar listcom =\n/** @class */\nfunction (_super) {\n  __extends(listcom, _super);\n\n  function listcom() {\n    var _this = _super !== null && _super.apply(this, arguments) || this;\n\n    _this.name = 'listcom';\n    return _this;\n  }\n\n  listcom_1 = listcom;\n\n  listcom.prototype.render = function (h) {\n    var _a = this.$props,\n        type = _a.type,\n        _b = _a.title,\n        title = _b === void 0 ? false : _b,\n        options = _a.options,\n        _c = _a.loading,\n        loading = _c === void 0 ? false : _c,\n        _d = _a.active,\n        active = _d === void 0 ? false : _d,\n        _e = _a.start,\n        start = _e === void 0 ? true : _e,\n        _f = _a.center,\n        center = _f === void 0 ? false : _f,\n        _g = _a.end,\n        end = _g === void 0 ? false : _g;\n    var _h = options.row,\n        row = _h === void 0 ? 4 : _h,\n        _j = options.lineHight,\n        lineHight = _j === void 0 ? 20 : _j,\n        _k = options.width,\n        width = _k === void 0 ? '100%' : _k,\n        _l = options.height,\n        height = _l === void 0 ? '20px' : _l,\n        _m = options.position,\n        position = _m === void 0 ? 'center' : _m;\n    var arr = Array(+row).fill(0);\n    var styleLC = {\n      'align-items': position\n    };\n    return h(\"div\", {\n      \"class\": [style.listCom],\n      style: styleLC\n    }, [h(\"ul\", {\n      style: {\n        width: width\n      }\n    }, [arr.map(function (item, index) {\n      return h(\"li\", {\n        key: index,\n        \"class\": [active ? style.progActive : style.prog],\n        style: {\n          height: height,\n          marginBottom: lineHight * 0.6 + 'px',\n          width: index === arr.length - 1 ? '60%' : '100%'\n        }\n      });\n    })])]);\n  };\n\n  var listcom_1;\n  listcom.componentName = 'listcom'; // tslint:disable-next-line:no-shadowed-variable\n\n  listcom.install = function (Vue) {\n    return Vue.component(listcom_1.componentName, listcom_1);\n  };\n\n  listcom = listcom_1 = __decorate([Component], listcom);\n  return listcom;\n}(BaseComponent);\n\nexport default listcom;"
             },
             {
               "id": null,
@@ -1904,8 +1904,8 @@
                   "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/main.ts",
                   "name": "./src/main.ts",
                   "profile": {
-                    "factory": 39,
-                    "building": 1824
+                    "factory": 41,
+                    "building": 1986
                   }
                 },
                 {
@@ -1913,15 +1913,15 @@
                   "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/package/index.ts",
                   "name": "./src/package/index.ts",
                   "profile": {
-                    "factory": 4,
-                    "building": 26
+                    "factory": 15,
+                    "building": 39
                   }
                 }
               ],
               "profile": {
                 "factory": 6,
-                "building": 737,
-                "dependencies": 530
+                "building": 716,
+                "dependencies": 508
               },
               "failed": false,
               "errors": 0,
@@ -1978,8 +1978,8 @@
                   "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/main.ts",
                   "name": "./src/main.ts",
                   "profile": {
-                    "factory": 39,
-                    "building": 1824
+                    "factory": 41,
+                    "building": 1986
                   }
                 },
                 {
@@ -1987,8 +1987,8 @@
                   "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/package/index.ts",
                   "name": "./src/package/index.ts",
                   "profile": {
-                    "factory": 4,
-                    "building": 26
+                    "factory": 15,
+                    "building": 39
                   }
                 },
                 {
@@ -1997,15 +1997,15 @@
                   "name": "./src/package/Skeleton.tsx",
                   "profile": {
                     "factory": 6,
-                    "building": 737,
-                    "dependencies": 530
+                    "building": 716,
+                    "dependencies": 508
                   }
                 }
               ],
               "profile": {
-                "factory": 613,
-                "building": 73,
-                "dependencies": 23
+                "factory": 589,
+                "building": 128,
+                "dependencies": 21
               },
               "failed": false,
               "errors": 0,
@@ -2068,18 +2068,18 @@
                 },
                 {
                   "moduleId": null,
-                  "moduleIdentifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/package/components/ListCom.tsx",
-                  "module": "./src/package/components/ListCom.tsx",
-                  "moduleName": "./src/package/components/ListCom.tsx",
+                  "moduleIdentifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/package/components/Card.tsx",
+                  "module": "./src/package/components/Card.tsx",
+                  "moduleName": "./src/package/components/Card.tsx",
                   "type": "harmony side effect evaluation",
                   "userRequest": "vue-property-decorator",
                   "loc": "41:0-51"
                 },
                 {
                   "moduleId": null,
-                  "moduleIdentifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/package/components/Card.tsx",
-                  "module": "./src/package/components/Card.tsx",
-                  "moduleName": "./src/package/components/Card.tsx",
+                  "moduleIdentifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/package/components/ListCom.tsx",
+                  "module": "./src/package/components/ListCom.tsx",
+                  "moduleName": "./src/package/components/ListCom.tsx",
                   "type": "harmony side effect evaluation",
                   "userRequest": "vue-property-decorator",
                   "loc": "41:0-51"
@@ -2203,15 +2203,6 @@
                 },
                 {
                   "moduleId": null,
-                  "moduleIdentifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/package/components/ListCom.tsx",
-                  "module": "./src/package/components/ListCom.tsx",
-                  "moduleName": "./src/package/components/ListCom.tsx",
-                  "type": "harmony import specifier",
-                  "userRequest": "vue-property-decorator",
-                  "loc": "108:36-45"
-                },
-                {
-                  "moduleId": null,
                   "moduleIdentifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/package/components/Circle.tsx",
                   "module": "./src/package/components/Circle.tsx",
                   "moduleName": "./src/package/components/Circle.tsx",
@@ -2236,6 +2227,15 @@
                   "type": "harmony import specifier",
                   "userRequest": "vue-property-decorator",
                   "loc": "116:34-43"
+                },
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/package/components/ListCom.tsx",
+                  "module": "./src/package/components/ListCom.tsx",
+                  "moduleName": "./src/package/components/ListCom.tsx",
+                  "type": "harmony import specifier",
+                  "userRequest": "vue-property-decorator",
+                  "loc": "116:36-45"
                 },
                 {
                   "moduleId": null,
@@ -2306,8 +2306,8 @@
                   "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/main.ts",
                   "name": "./src/main.ts",
                   "profile": {
-                    "factory": 39,
-                    "building": 1824
+                    "factory": 41,
+                    "building": 1986
                   }
                 },
                 {
@@ -2315,8 +2315,8 @@
                   "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/package/index.ts",
                   "name": "./src/package/index.ts",
                   "profile": {
-                    "factory": 4,
-                    "building": 26
+                    "factory": 15,
+                    "building": 39
                   }
                 },
                 {
@@ -2325,15 +2325,15 @@
                   "name": "./src/package/Skeleton.tsx",
                   "profile": {
                     "factory": 6,
-                    "building": 737,
-                    "dependencies": 530
+                    "building": 716,
+                    "dependencies": 508
                   }
                 }
               ],
               "profile": {
-                "factory": 613,
-                "building": 73,
-                "dependencies": 23
+                "factory": 589,
+                "building": 128,
+                "dependencies": 21
               },
               "failed": false,
               "errors": 0,
@@ -2396,18 +2396,18 @@
                 },
                 {
                   "moduleId": null,
-                  "moduleIdentifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/package/components/ListCom.tsx",
-                  "module": "./src/package/components/ListCom.tsx",
-                  "moduleName": "./src/package/components/ListCom.tsx",
+                  "moduleIdentifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/package/components/Card.tsx",
+                  "module": "./src/package/components/Card.tsx",
+                  "moduleName": "./src/package/components/Card.tsx",
                   "type": "harmony side effect evaluation",
                   "userRequest": "../BaseComponent",
                   "loc": "42:0-45"
                 },
                 {
                   "moduleId": null,
-                  "moduleIdentifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/package/components/Card.tsx",
-                  "module": "./src/package/components/Card.tsx",
-                  "moduleName": "./src/package/components/Card.tsx",
+                  "moduleIdentifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/package/components/ListCom.tsx",
+                  "module": "./src/package/components/ListCom.tsx",
+                  "moduleName": "./src/package/components/ListCom.tsx",
                   "type": "harmony side effect evaluation",
                   "userRequest": "../BaseComponent",
                   "loc": "42:0-45"
@@ -2441,15 +2441,6 @@
                 },
                 {
                   "moduleId": null,
-                  "moduleIdentifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/package/components/ListCom.tsx",
-                  "module": "./src/package/components/ListCom.tsx",
-                  "moduleName": "./src/package/components/ListCom.tsx",
-                  "type": "harmony import specifier",
-                  "userRequest": "../BaseComponent",
-                  "loc": "110:2-15"
-                },
-                {
-                  "moduleId": null,
                   "moduleIdentifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/package/components/Circle.tsx",
                   "module": "./src/package/components/Circle.tsx",
                   "moduleName": "./src/package/components/Circle.tsx",
@@ -2471,6 +2462,15 @@
                   "moduleIdentifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/package/components/Avatar.tsx",
                   "module": "./src/package/components/Avatar.tsx",
                   "moduleName": "./src/package/components/Avatar.tsx",
+                  "type": "harmony import specifier",
+                  "userRequest": "../BaseComponent",
+                  "loc": "118:2-15"
+                },
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/package/components/ListCom.tsx",
+                  "module": "./src/package/components/ListCom.tsx",
+                  "moduleName": "./src/package/components/ListCom.tsx",
                   "type": "harmony import specifier",
                   "userRequest": "../BaseComponent",
                   "loc": "118:2-15"
@@ -2534,8 +2534,8 @@
                   "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/main.ts",
                   "name": "./src/main.ts",
                   "profile": {
-                    "factory": 39,
-                    "building": 1824
+                    "factory": 41,
+                    "building": 1986
                   }
                 },
                 {
@@ -2543,8 +2543,8 @@
                   "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/package/index.ts",
                   "name": "./src/package/index.ts",
                   "profile": {
-                    "factory": 4,
-                    "building": 26
+                    "factory": 15,
+                    "building": 39
                   }
                 },
                 {
@@ -2553,14 +2553,14 @@
                   "name": "./src/package/components/Custom.tsx",
                   "profile": {
                     "factory": 6,
-                    "building": 737,
-                    "dependencies": 530
+                    "building": 716,
+                    "dependencies": 508
                   }
                 }
               ],
               "profile": {
-                "factory": 295,
-                "building": 73
+                "factory": 362,
+                "building": 128
               },
               "failed": false,
               "errors": 0,
@@ -2660,8 +2660,8 @@
                   "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/main.ts",
                   "name": "./src/main.ts",
                   "profile": {
-                    "factory": 39,
-                    "building": 1824
+                    "factory": 41,
+                    "building": 1986
                   }
                 },
                 {
@@ -2669,8 +2669,8 @@
                   "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/package/index.ts",
                   "name": "./src/package/index.ts",
                   "profile": {
-                    "factory": 4,
-                    "building": 26
+                    "factory": 15,
+                    "building": 39
                   }
                 },
                 {
@@ -2679,8 +2679,8 @@
                   "name": "./src/package/Skeleton.tsx",
                   "profile": {
                     "factory": 6,
-                    "building": 737,
-                    "dependencies": 530
+                    "building": 716,
+                    "dependencies": 508
                   }
                 },
                 {
@@ -2688,15 +2688,15 @@
                   "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/vue-style-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/node_modules/css-loader/dist/cjs.js??ref--1-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/postcss-loader/src/index.js??ref--1-2!/Users/enzezhang/githubList/vue-skeleton/node_modules/less-loader/dist/cjs.js!/Users/enzezhang/githubList/vue-skeleton/src/package/style/style.less",
                   "name": "./src/package/style/style.less",
                   "profile": {
-                    "factory": 613,
-                    "building": 73,
-                    "dependencies": 23
+                    "factory": 589,
+                    "building": 128,
+                    "dependencies": 21
                   }
                 }
               ],
               "profile": {
-                "factory": 68,
-                "building": 145
+                "factory": 122,
+                "building": 146
               },
               "failed": false,
               "errors": 0,
@@ -2744,8 +2744,8 @@
                   "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/main.ts",
                   "name": "./src/main.ts",
                   "profile": {
-                    "factory": 39,
-                    "building": 1824
+                    "factory": 41,
+                    "building": 1986
                   }
                 },
                 {
@@ -2753,8 +2753,8 @@
                   "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/package/index.ts",
                   "name": "./src/package/index.ts",
                   "profile": {
-                    "factory": 4,
-                    "building": 26
+                    "factory": 15,
+                    "building": 39
                   }
                 },
                 {
@@ -2763,8 +2763,8 @@
                   "name": "./src/package/Skeleton.tsx",
                   "profile": {
                     "factory": 6,
-                    "building": 737,
-                    "dependencies": 530
+                    "building": 716,
+                    "dependencies": 508
                   }
                 },
                 {
@@ -2772,9 +2772,9 @@
                   "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/vue-style-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/node_modules/css-loader/dist/cjs.js??ref--1-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/postcss-loader/src/index.js??ref--1-2!/Users/enzezhang/githubList/vue-skeleton/node_modules/less-loader/dist/cjs.js!/Users/enzezhang/githubList/vue-skeleton/src/package/style/style.less",
                   "name": "./src/package/style/style.less",
                   "profile": {
-                    "factory": 613,
-                    "building": 73,
-                    "dependencies": 23
+                    "factory": 589,
+                    "building": 128,
+                    "dependencies": 21
                   }
                 },
                 {
@@ -2782,8 +2782,8 @@
                   "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/vue-style-loader/lib/addStylesClient.js",
                   "name": "./node_modules/vue-style-loader/lib/addStylesClient.js",
                   "profile": {
-                    "factory": 68,
-                    "building": 145
+                    "factory": 122,
+                    "building": 146
                   }
                 }
               ],
@@ -2875,8 +2875,8 @@
           "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/main.ts",
           "name": "./src/main.ts",
           "profile": {
-            "factory": 39,
-            "building": 1824
+            "factory": 41,
+            "building": 1986
           }
         },
         {
@@ -2884,8 +2884,8 @@
           "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/package/index.ts",
           "name": "./src/package/index.ts",
           "profile": {
-            "factory": 4,
-            "building": 26
+            "factory": 15,
+            "building": 39
           }
         },
         {
@@ -2894,15 +2894,15 @@
           "name": "./src/package/Skeleton.tsx",
           "profile": {
             "factory": 6,
-            "building": 737,
-            "dependencies": 530
+            "building": 716,
+            "dependencies": 508
           }
         }
       ],
       "profile": {
-        "factory": 613,
-        "building": 73,
-        "dependencies": 23
+        "factory": 589,
+        "building": 128,
+        "dependencies": 21
       },
       "failed": false,
       "errors": 0,
@@ -3024,15 +3024,6 @@
           "moduleName": "./src/main.ts + 13 modules",
           "type": "harmony import specifier",
           "userRequest": "../style/style.less",
-          "loc": "85:16-21"
-        },
-        {
-          "moduleId": 5,
-          "moduleIdentifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/main.ts e61c8208f83b361920653c0fcde8f35e",
-          "module": "./src/main.ts + 13 modules",
-          "moduleName": "./src/main.ts + 13 modules",
-          "type": "harmony import specifier",
-          "userRequest": "../style/style.less",
           "loc": "89:16-21"
         },
         {
@@ -3069,16 +3060,7 @@
           "moduleName": "./src/main.ts + 13 modules",
           "type": "harmony import specifier",
           "userRequest": "../style/style.less",
-          "loc": "91:27-32"
-        },
-        {
-          "moduleId": 5,
-          "moduleIdentifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/main.ts e61c8208f83b361920653c0fcde8f35e",
-          "module": "./src/main.ts + 13 modules",
-          "moduleName": "./src/main.ts + 13 modules",
-          "type": "harmony import specifier",
-          "userRequest": "../style/style.less",
-          "loc": "91:46-51"
+          "loc": "90:16-21"
         },
         {
           "moduleId": 5,
@@ -3106,6 +3088,24 @@
           "type": "harmony import specifier",
           "userRequest": "../style/style.less",
           "loc": "97:16-21"
+        },
+        {
+          "moduleId": 5,
+          "moduleIdentifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/main.ts e61c8208f83b361920653c0fcde8f35e",
+          "module": "./src/main.ts + 13 modules",
+          "moduleName": "./src/main.ts + 13 modules",
+          "type": "harmony import specifier",
+          "userRequest": "../style/style.less",
+          "loc": "99:27-32"
+        },
+        {
+          "moduleId": 5,
+          "moduleIdentifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/main.ts e61c8208f83b361920653c0fcde8f35e",
+          "module": "./src/main.ts + 13 modules",
+          "moduleName": "./src/main.ts + 13 modules",
+          "type": "harmony import specifier",
+          "userRequest": "../style/style.less",
+          "loc": "99:46-51"
         },
         {
           "moduleId": 5,
@@ -3258,8 +3258,8 @@
           "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/main.ts",
           "name": "./src/main.ts",
           "profile": {
-            "factory": 39,
-            "building": 1824
+            "factory": 41,
+            "building": 1986
           }
         },
         {
@@ -3267,8 +3267,8 @@
           "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/package/index.ts",
           "name": "./src/package/index.ts",
           "profile": {
-            "factory": 4,
-            "building": 26
+            "factory": 15,
+            "building": 39
           }
         },
         {
@@ -3277,8 +3277,8 @@
           "name": "./src/package/Skeleton.tsx",
           "profile": {
             "factory": 6,
-            "building": 737,
-            "dependencies": 530
+            "building": 716,
+            "dependencies": 508
           }
         },
         {
@@ -3286,15 +3286,15 @@
           "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/vue-property-decorator/lib/vue-property-decorator.js",
           "name": "./node_modules/vue-property-decorator/lib/vue-property-decorator.js",
           "profile": {
-            "factory": 613,
-            "building": 73,
-            "dependencies": 23
+            "factory": 589,
+            "building": 128,
+            "dependencies": 21
           }
         }
       ],
       "profile": {
-        "factory": 151,
-        "building": 7,
+        "factory": 152,
+        "building": 9,
         "dependencies": 0
       },
       "failed": false,
@@ -3408,8 +3408,8 @@
           "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/main.ts",
           "name": "./src/main.ts",
           "profile": {
-            "factory": 39,
-            "building": 1824
+            "factory": 41,
+            "building": 1986
           }
         },
         {
@@ -3417,8 +3417,8 @@
           "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/package/index.ts",
           "name": "./src/package/index.ts",
           "profile": {
-            "factory": 4,
-            "building": 26
+            "factory": 15,
+            "building": 39
           }
         },
         {
@@ -3427,8 +3427,8 @@
           "name": "./src/package/Skeleton.tsx",
           "profile": {
             "factory": 6,
-            "building": 737,
-            "dependencies": 530
+            "building": 716,
+            "dependencies": 508
           }
         },
         {
@@ -3436,15 +3436,15 @@
           "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/vue-property-decorator/lib/vue-property-decorator.js",
           "name": "./node_modules/vue-property-decorator/lib/vue-property-decorator.js",
           "profile": {
-            "factory": 613,
-            "building": 73,
-            "dependencies": 23
+            "factory": 589,
+            "building": 128,
+            "dependencies": 21
           }
         }
       ],
       "profile": {
-        "factory": 151,
-        "building": 7,
+        "factory": 152,
+        "building": 9,
         "dependencies": 0
       },
       "failed": false,
@@ -3493,7 +3493,7 @@
       "name": "./node_modules/css-loader/dist/cjs.js??ref--1-1!./node_modules/postcss-loader/src??ref--1-2!./node_modules/less-loader/dist/cjs.js!./src/package/style/style.less",
       "index": 9,
       "index2": 5,
-      "size": 2720,
+      "size": 2627,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -3510,8 +3510,8 @@
           "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/main.ts",
           "name": "./src/main.ts",
           "profile": {
-            "factory": 39,
-            "building": 1824
+            "factory": 41,
+            "building": 1986
           }
         },
         {
@@ -3519,8 +3519,8 @@
           "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/package/index.ts",
           "name": "./src/package/index.ts",
           "profile": {
-            "factory": 4,
-            "building": 26
+            "factory": 15,
+            "building": 39
           }
         },
         {
@@ -3529,8 +3529,8 @@
           "name": "./src/package/Skeleton.tsx",
           "profile": {
             "factory": 6,
-            "building": 737,
-            "dependencies": 530
+            "building": 716,
+            "dependencies": 508
           }
         },
         {
@@ -3538,15 +3538,15 @@
           "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/vue-style-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/node_modules/css-loader/dist/cjs.js??ref--1-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/postcss-loader/src/index.js??ref--1-2!/Users/enzezhang/githubList/vue-skeleton/node_modules/less-loader/dist/cjs.js!/Users/enzezhang/githubList/vue-skeleton/src/package/style/style.less",
           "name": "./src/package/style/style.less",
           "profile": {
-            "factory": 613,
-            "building": 73,
-            "dependencies": 23
+            "factory": 589,
+            "building": 128,
+            "dependencies": 21
           }
         }
       ],
       "profile": {
-        "factory": 68,
-        "building": 145
+        "factory": 122,
+        "building": 146
       },
       "failed": false,
       "errors": 0,
@@ -3569,7 +3569,7 @@
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
       "depth": 4,
-      "source": "exports = module.exports = require(\"../../../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.id, \".contianer_S8Y9lJLI {\\n  height: 100%;\\n}\\n.contianer_S8Y9lJLI * {\\n  margin: 0;\\n  padding: 0;\\n  list-style: none;\\n}\\n.prog_2och0xgT {\\n  position: relative;\\n}\\n.progActive_3tSycGMF {\\n  -webkit-transition: all 0.25s ease-in-out;\\n  -o-transition: all 0.25s ease-in-out;\\n  transition: all 0.25s ease-in-out;\\n  background: #e6e6e6;\\n  position: relative;\\n  list-style: none;\\n}\\n.progActive_3tSycGMF:after {\\n  content: \\\"\\\";\\n  display: block;\\n  height: 100%;\\n  width: 100%;\\n  position: absolute;\\n  left: 0;\\n  top: 0;\\n  background: -o-linear-gradient(315deg, #f2f2f2 25%, #ffffff 37%, #f2f2f2 63%);\\n  background: linear-gradient(135deg, #f2f2f2 25%, #ffffff 37%, #f2f2f2 63%);\\n  background-size: 400% 100%;\\n  -webkit-animation: progshow_3s0jwAKZ 1.4s ease infinite;\\n          animation: progshow_3s0jwAKZ 1.4s ease infinite;\\n}\\n@-webkit-keyframes progshow_3s0jwAKZ {\\n  0% {\\n    background-position: 100% 50%;\\n  }\\n  100% {\\n    background-position: 0 50%;\\n  }\\n}\\n@keyframes progshow_3s0jwAKZ {\\n  0% {\\n    background-position: 100% 50%;\\n  }\\n  100% {\\n    background-position: 0 50%;\\n  }\\n}\\n.title_2cRrtpZ8 {\\n  width: 200px;\\n  height: 30px;\\n  margin-bottom: 20px;\\n}\\n.CircleCom_OPdPNcc3 {\\n  width: 100%;\\n  height: 100%;\\n  display: grid;\\n  grid-template-columns: 100%;\\n  grid-template-rows: 100%;\\n  -webkit-box-align: center;\\n      -ms-flex-align: center;\\n          align-items: center;\\n  overflow: hidden;\\n  padding: 5%;\\n  -webkit-box-sizing: border-box;\\n          box-sizing: border-box;\\n}\\n.card_2ubg7lLl {\\n  width: 100%;\\n  height: 100%;\\n  display: grid;\\n  grid-template-columns: 100%;\\n  grid-template-rows: 100%;\\n  -webkit-box-align: center;\\n      -ms-flex-align: center;\\n          align-items: center;\\n  padding: 5%;\\n  -webkit-box-sizing: border-box;\\n          box-sizing: border-box;\\n  overflow: hidden;\\n}\\n.listCom_2QHM1mDh {\\n  width: 100%;\\n  height: 100%;\\n  display: grid;\\n  grid-template-columns: 100%;\\n  grid-template-rows: 100%;\\n  -webkit-box-align: center;\\n      -ms-flex-align: center;\\n          align-items: center;\\n  overflow: hidden;\\n  padding: 5%;\\n  -webkit-box-sizing: border-box;\\n          box-sizing: border-box;\\n}\\n.customList_6KpNFJxi {\\n  display: grid;\\n}\\n\", \"\"]);\n\n// Exports\nexports.locals = {\n\t\"contianer\": \"contianer_S8Y9lJLI\",\n\t\"prog\": \"prog_2och0xgT\",\n\t\"progActive\": \"progActive_3tSycGMF\",\n\t\"progshow\": \"progshow_3s0jwAKZ\",\n\t\"title\": \"title_2cRrtpZ8\",\n\t\"CircleCom\": \"CircleCom_OPdPNcc3\",\n\t\"card\": \"card_2ubg7lLl\",\n\t\"listCom\": \"listCom_2QHM1mDh\",\n\t\"customList\": \"customList_6KpNFJxi\"\n};"
+      "source": "exports = module.exports = require(\"../../../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.id, \".contianer_S8Y9lJLI {\\n  height: 100%;\\n}\\n.contianer_S8Y9lJLI * {\\n  margin: 0;\\n  padding: 0;\\n  list-style: none;\\n}\\n.prog_2och0xgT {\\n  position: relative;\\n}\\n.progActive_3tSycGMF {\\n  -webkit-transition: all 0.25s ease-in-out;\\n  -o-transition: all 0.25s ease-in-out;\\n  transition: all 0.25s ease-in-out;\\n  background: #e6e6e6;\\n  position: relative;\\n  list-style: none;\\n}\\n.progActive_3tSycGMF:after {\\n  content: \\\"\\\";\\n  display: block;\\n  height: 100%;\\n  width: 100%;\\n  position: absolute;\\n  left: 0;\\n  top: 0;\\n  background: -o-linear-gradient(315deg, #f2f2f2 25%, #ffffff 37%, #f2f2f2 63%);\\n  background: linear-gradient(135deg, #f2f2f2 25%, #ffffff 37%, #f2f2f2 63%);\\n  background-size: 400% 100%;\\n  -webkit-animation: progshow_3s0jwAKZ 1.4s ease infinite;\\n          animation: progshow_3s0jwAKZ 1.4s ease infinite;\\n}\\n@-webkit-keyframes progshow_3s0jwAKZ {\\n  0% {\\n    background-position: 100% 50%;\\n  }\\n  100% {\\n    background-position: 0 50%;\\n  }\\n}\\n@keyframes progshow_3s0jwAKZ {\\n  0% {\\n    background-position: 100% 50%;\\n  }\\n  100% {\\n    background-position: 0 50%;\\n  }\\n}\\n.title_2cRrtpZ8 {\\n  width: 200px;\\n  height: 30px;\\n  margin-bottom: 20px;\\n}\\n.CircleCom_OPdPNcc3 {\\n  width: 100%;\\n  height: 100%;\\n  display: grid;\\n  grid-template-columns: 100%;\\n  grid-template-rows: 100%;\\n  -webkit-box-align: center;\\n      -ms-flex-align: center;\\n          align-items: center;\\n  overflow: hidden;\\n  padding: 5%;\\n  -webkit-box-sizing: border-box;\\n          box-sizing: border-box;\\n}\\n.card_2ubg7lLl {\\n  width: 100%;\\n  height: 100%;\\n  display: grid;\\n  grid-template-columns: 100%;\\n  grid-template-rows: 100%;\\n  -webkit-box-align: center;\\n      -ms-flex-align: center;\\n          align-items: center;\\n  padding: 5%;\\n  -webkit-box-sizing: border-box;\\n          box-sizing: border-box;\\n  overflow: hidden;\\n}\\n.listCom_2QHM1mDh {\\n  width: 100%;\\n  height: 100%;\\n  display: grid;\\n  grid-template-columns: 100%;\\n  grid-template-rows: 100%;\\n  overflow: hidden;\\n  padding: 5%;\\n  -webkit-box-sizing: border-box;\\n          box-sizing: border-box;\\n}\\n.customList_6KpNFJxi {\\n  display: grid;\\n}\\n\", \"\"]);\n\n// Exports\nexports.locals = {\n\t\"contianer\": \"contianer_S8Y9lJLI\",\n\t\"prog\": \"prog_2och0xgT\",\n\t\"progActive\": \"progActive_3tSycGMF\",\n\t\"progshow\": \"progshow_3s0jwAKZ\",\n\t\"title\": \"title_2cRrtpZ8\",\n\t\"CircleCom\": \"CircleCom_OPdPNcc3\",\n\t\"card\": \"card_2ubg7lLl\",\n\t\"listCom\": \"listCom_2QHM1mDh\",\n\t\"customList\": \"customList_6KpNFJxi\"\n};"
     },
     {
       "id": 4,
@@ -3594,8 +3594,8 @@
           "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/main.ts",
           "name": "./src/main.ts",
           "profile": {
-            "factory": 39,
-            "building": 1824
+            "factory": 41,
+            "building": 1986
           }
         },
         {
@@ -3603,8 +3603,8 @@
           "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/package/index.ts",
           "name": "./src/package/index.ts",
           "profile": {
-            "factory": 4,
-            "building": 26
+            "factory": 15,
+            "building": 39
           }
         },
         {
@@ -3613,8 +3613,8 @@
           "name": "./src/package/Skeleton.tsx",
           "profile": {
             "factory": 6,
-            "building": 737,
-            "dependencies": 530
+            "building": 716,
+            "dependencies": 508
           }
         },
         {
@@ -3622,9 +3622,9 @@
           "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/vue-style-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/node_modules/css-loader/dist/cjs.js??ref--1-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/postcss-loader/src/index.js??ref--1-2!/Users/enzezhang/githubList/vue-skeleton/node_modules/less-loader/dist/cjs.js!/Users/enzezhang/githubList/vue-skeleton/src/package/style/style.less",
           "name": "./src/package/style/style.less",
           "profile": {
-            "factory": 613,
-            "building": 73,
-            "dependencies": 23
+            "factory": 589,
+            "building": 128,
+            "dependencies": 21
           }
         },
         {
@@ -3632,14 +3632,14 @@
           "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/css-loader/dist/cjs.js??ref--1-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/postcss-loader/src/index.js??ref--1-2!/Users/enzezhang/githubList/vue-skeleton/node_modules/less-loader/dist/cjs.js!/Users/enzezhang/githubList/vue-skeleton/src/package/style/style.less",
           "name": "./node_modules/css-loader/dist/cjs.js??ref--1-1!./node_modules/postcss-loader/src??ref--1-2!./node_modules/less-loader/dist/cjs.js!./src/package/style/style.less",
           "profile": {
-            "factory": 68,
-            "building": 145
+            "factory": 122,
+            "building": 146
           }
         }
       ],
       "profile": {
-        "factory": 15,
-        "building": 2
+        "factory": 1,
+        "building": 11
       },
       "failed": false,
       "errors": 0,
@@ -3670,7 +3670,7 @@
       "name": "./src/main.ts + 13 modules",
       "index": 0,
       "index2": 20,
-      "size": 47856,
+      "size": 48031,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -3725,8 +3725,8 @@
           "issuerName": null,
           "issuerPath": null,
           "profile": {
-            "factory": 39,
-            "building": 1824
+            "factory": 41,
+            "building": 1986
           },
           "failed": false,
           "errors": 0,
@@ -3774,14 +3774,14 @@
               "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/main.ts",
               "name": "./src/main.ts",
               "profile": {
-                "factory": 39,
-                "building": 1824
+                "factory": 41,
+                "building": 1986
               }
             }
           ],
           "profile": {
-            "factory": 4,
-            "building": 26
+            "factory": 15,
+            "building": 39
           },
           "failed": false,
           "errors": 0,
@@ -3943,8 +3943,8 @@
               "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/main.ts",
               "name": "./src/main.ts",
               "profile": {
-                "factory": 39,
-                "building": 1824
+                "factory": 41,
+                "building": 1986
               }
             },
             {
@@ -3952,15 +3952,15 @@
               "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/package/index.ts",
               "name": "./src/package/index.ts",
               "profile": {
-                "factory": 4,
-                "building": 26
+                "factory": 15,
+                "building": 39
               }
             }
           ],
           "profile": {
             "factory": 6,
-            "building": 737,
-            "dependencies": 530
+            "building": 716,
+            "dependencies": 508
           },
           "failed": false,
           "errors": 0,
@@ -4035,8 +4035,8 @@
               "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/main.ts",
               "name": "./src/main.ts",
               "profile": {
-                "factory": 39,
-                "building": 1824
+                "factory": 41,
+                "building": 1986
               }
             },
             {
@@ -4044,15 +4044,15 @@
               "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/package/index.ts",
               "name": "./src/package/index.ts",
               "profile": {
-                "factory": 4,
-                "building": 26
+                "factory": 15,
+                "building": 39
               }
             }
           ],
           "profile": {
             "factory": 6,
-            "building": 737,
-            "dependencies": 530
+            "building": 716,
+            "dependencies": 508
           },
           "failed": false,
           "errors": 0,
@@ -4127,8 +4127,8 @@
               "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/main.ts",
               "name": "./src/main.ts",
               "profile": {
-                "factory": 39,
-                "building": 1824
+                "factory": 41,
+                "building": 1986
               }
             },
             {
@@ -4136,15 +4136,15 @@
               "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/package/index.ts",
               "name": "./src/package/index.ts",
               "profile": {
-                "factory": 4,
-                "building": 26
+                "factory": 15,
+                "building": 39
               }
             }
           ],
           "profile": {
             "factory": 6,
-            "building": 737,
-            "dependencies": 530
+            "building": 716,
+            "dependencies": 508
           },
           "failed": false,
           "errors": 0,
@@ -4219,8 +4219,8 @@
               "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/main.ts",
               "name": "./src/main.ts",
               "profile": {
-                "factory": 39,
-                "building": 1824
+                "factory": 41,
+                "building": 1986
               }
             },
             {
@@ -4228,15 +4228,15 @@
               "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/package/index.ts",
               "name": "./src/package/index.ts",
               "profile": {
-                "factory": 4,
-                "building": 26
+                "factory": 15,
+                "building": 39
               }
             }
           ],
           "profile": {
             "factory": 6,
-            "building": 737,
-            "dependencies": 530
+            "building": 716,
+            "dependencies": 508
           },
           "failed": false,
           "errors": 0,
@@ -4311,8 +4311,8 @@
               "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/main.ts",
               "name": "./src/main.ts",
               "profile": {
-                "factory": 39,
-                "building": 1824
+                "factory": 41,
+                "building": 1986
               }
             },
             {
@@ -4320,15 +4320,15 @@
               "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/package/index.ts",
               "name": "./src/package/index.ts",
               "profile": {
-                "factory": 4,
-                "building": 26
+                "factory": 15,
+                "building": 39
               }
             }
           ],
           "profile": {
             "factory": 6,
-            "building": 737,
-            "dependencies": 530
+            "building": 716,
+            "dependencies": 508
           },
           "failed": false,
           "errors": 0,
@@ -4403,8 +4403,8 @@
               "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/main.ts",
               "name": "./src/main.ts",
               "profile": {
-                "factory": 39,
-                "building": 1824
+                "factory": 41,
+                "building": 1986
               }
             },
             {
@@ -4412,15 +4412,15 @@
               "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/package/index.ts",
               "name": "./src/package/index.ts",
               "profile": {
-                "factory": 4,
-                "building": 26
+                "factory": 15,
+                "building": 39
               }
             }
           ],
           "profile": {
             "factory": 6,
-            "building": 737,
-            "dependencies": 530
+            "building": 716,
+            "dependencies": 508
           },
           "failed": false,
           "errors": 0,
@@ -4495,8 +4495,8 @@
               "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/main.ts",
               "name": "./src/main.ts",
               "profile": {
-                "factory": 39,
-                "building": 1824
+                "factory": 41,
+                "building": 1986
               }
             },
             {
@@ -4504,15 +4504,15 @@
               "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/package/index.ts",
               "name": "./src/package/index.ts",
               "profile": {
-                "factory": 4,
-                "building": 26
+                "factory": 15,
+                "building": 39
               }
             }
           ],
           "profile": {
             "factory": 6,
-            "building": 737,
-            "dependencies": 530
+            "building": 716,
+            "dependencies": 508
           },
           "failed": false,
           "errors": 0,
@@ -4572,7 +4572,7 @@
           "name": "./src/package/components/ListCom.tsx",
           "index": 20,
           "index2": 17,
-          "size": 3612,
+          "size": 3787,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -4587,8 +4587,8 @@
               "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/main.ts",
               "name": "./src/main.ts",
               "profile": {
-                "factory": 39,
-                "building": 1824
+                "factory": 41,
+                "building": 1986
               }
             },
             {
@@ -4596,15 +4596,15 @@
               "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/package/index.ts",
               "name": "./src/package/index.ts",
               "profile": {
-                "factory": 4,
-                "building": 26
+                "factory": 15,
+                "building": 39
               }
             }
           ],
           "profile": {
             "factory": 6,
-            "building": 737,
-            "dependencies": 530
+            "building": 716,
+            "dependencies": 508
           },
           "failed": false,
           "errors": 0,
@@ -4656,7 +4656,7 @@
           ],
           "optimizationBailout": [],
           "depth": 2,
-          "source": "\"use strict\";\n\nfunction _typeof(obj) { if (typeof Symbol === \"function\" && typeof Symbol.iterator === \"symbol\") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === \"function\" && obj.constructor === Symbol && obj !== Symbol.prototype ? \"symbol\" : typeof obj; }; } return _typeof(obj); }\n\nvar __extends = this && this.__extends || function () {\n  var _extendStatics = function extendStatics(d, b) {\n    _extendStatics = Object.setPrototypeOf || {\n      __proto__: []\n    } instanceof Array && function (d, b) {\n      d.__proto__ = b;\n    } || function (d, b) {\n      for (var p in b) {\n        if (b.hasOwnProperty(p)) d[p] = b[p];\n      }\n    };\n\n    return _extendStatics(d, b);\n  };\n\n  return function (d, b) {\n    _extendStatics(d, b);\n\n    function __() {\n      this.constructor = d;\n    }\n\n    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());\n  };\n}();\n\nvar __decorate = this && this.__decorate || function (decorators, target, key, desc) {\n  var c = arguments.length,\n      r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc,\n      d;\n  if ((typeof Reflect === \"undefined\" ? \"undefined\" : _typeof(Reflect)) === \"object\" && typeof Reflect.decorate === \"function\") r = Reflect.decorate(decorators, target, key, desc);else for (var i = decorators.length - 1; i >= 0; i--) {\n    if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;\n  }\n  return c > 3 && r && Object.defineProperty(target, key, r), r;\n};\n\nimport { Component } from 'vue-property-decorator';\nimport BaseComponent from '../BaseComponent';\nimport style from '../style/style.less';\n\nvar listcom =\n/** @class */\nfunction (_super) {\n  __extends(listcom, _super);\n\n  function listcom() {\n    var _this = _super !== null && _super.apply(this, arguments) || this;\n\n    _this.name = 'listcom';\n    return _this;\n  }\n\n  listcom_1 = listcom;\n\n  listcom.prototype.render = function (h) {\n    var _a = this.$props,\n        type = _a.type,\n        _b = _a.title,\n        title = _b === void 0 ? false : _b,\n        options = _a.options,\n        _c = _a.loading,\n        loading = _c === void 0 ? false : _c,\n        _d = _a.active,\n        active = _d === void 0 ? false : _d,\n        _e = _a.start,\n        start = _e === void 0 ? true : _e,\n        _f = _a.center,\n        center = _f === void 0 ? false : _f,\n        _g = _a.end,\n        end = _g === void 0 ? false : _g;\n    var _h = options.row,\n        row = _h === void 0 ? 4 : _h,\n        _j = options.lineHight,\n        lineHight = _j === void 0 ? 20 : _j,\n        _k = options.width,\n        width = _k === void 0 ? '100%' : _k,\n        _l = options.height,\n        height = _l === void 0 ? '20px' : _l;\n    var arr = Array(+row).fill(0);\n    return h(\"div\", {\n      \"class\": [style.listCom]\n    }, [h(\"ul\", {\n      style: \"{width: 100%}\"\n    }, [arr.map(function (item, index) {\n      return h(\"li\", {\n        key: index,\n        \"class\": [active ? style.progActive : style.prog],\n        style: {\n          height: height,\n          marginBottom: lineHight * 0.6 + 'px',\n          width: index === arr.length - 1 ? '60%' : '100%'\n        }\n      });\n    })])]);\n  };\n\n  var listcom_1;\n  listcom.componentName = 'listcom'; // tslint:disable-next-line:no-shadowed-variable\n\n  listcom.install = function (Vue) {\n    return Vue.component(listcom_1.componentName, listcom_1);\n  };\n\n  listcom = listcom_1 = __decorate([Component], listcom);\n  return listcom;\n}(BaseComponent);\n\nexport default listcom;"
+          "source": "\"use strict\";\n\nfunction _typeof(obj) { if (typeof Symbol === \"function\" && typeof Symbol.iterator === \"symbol\") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === \"function\" && obj.constructor === Symbol && obj !== Symbol.prototype ? \"symbol\" : typeof obj; }; } return _typeof(obj); }\n\nvar __extends = this && this.__extends || function () {\n  var _extendStatics = function extendStatics(d, b) {\n    _extendStatics = Object.setPrototypeOf || {\n      __proto__: []\n    } instanceof Array && function (d, b) {\n      d.__proto__ = b;\n    } || function (d, b) {\n      for (var p in b) {\n        if (b.hasOwnProperty(p)) d[p] = b[p];\n      }\n    };\n\n    return _extendStatics(d, b);\n  };\n\n  return function (d, b) {\n    _extendStatics(d, b);\n\n    function __() {\n      this.constructor = d;\n    }\n\n    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());\n  };\n}();\n\nvar __decorate = this && this.__decorate || function (decorators, target, key, desc) {\n  var c = arguments.length,\n      r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc,\n      d;\n  if ((typeof Reflect === \"undefined\" ? \"undefined\" : _typeof(Reflect)) === \"object\" && typeof Reflect.decorate === \"function\") r = Reflect.decorate(decorators, target, key, desc);else for (var i = decorators.length - 1; i >= 0; i--) {\n    if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;\n  }\n  return c > 3 && r && Object.defineProperty(target, key, r), r;\n};\n\nimport { Component } from 'vue-property-decorator';\nimport BaseComponent from '../BaseComponent';\nimport style from '../style/style.less';\n\nvar listcom =\n/** @class */\nfunction (_super) {\n  __extends(listcom, _super);\n\n  function listcom() {\n    var _this = _super !== null && _super.apply(this, arguments) || this;\n\n    _this.name = 'listcom';\n    return _this;\n  }\n\n  listcom_1 = listcom;\n\n  listcom.prototype.render = function (h) {\n    var _a = this.$props,\n        type = _a.type,\n        _b = _a.title,\n        title = _b === void 0 ? false : _b,\n        options = _a.options,\n        _c = _a.loading,\n        loading = _c === void 0 ? false : _c,\n        _d = _a.active,\n        active = _d === void 0 ? false : _d,\n        _e = _a.start,\n        start = _e === void 0 ? true : _e,\n        _f = _a.center,\n        center = _f === void 0 ? false : _f,\n        _g = _a.end,\n        end = _g === void 0 ? false : _g;\n    var _h = options.row,\n        row = _h === void 0 ? 4 : _h,\n        _j = options.lineHight,\n        lineHight = _j === void 0 ? 20 : _j,\n        _k = options.width,\n        width = _k === void 0 ? '100%' : _k,\n        _l = options.height,\n        height = _l === void 0 ? '20px' : _l,\n        _m = options.position,\n        position = _m === void 0 ? 'center' : _m;\n    var arr = Array(+row).fill(0);\n    var styleLC = {\n      'align-items': position\n    };\n    return h(\"div\", {\n      \"class\": [style.listCom],\n      style: styleLC\n    }, [h(\"ul\", {\n      style: {\n        width: width\n      }\n    }, [arr.map(function (item, index) {\n      return h(\"li\", {\n        key: index,\n        \"class\": [active ? style.progActive : style.prog],\n        style: {\n          height: height,\n          marginBottom: lineHight * 0.6 + 'px',\n          width: index === arr.length - 1 ? '60%' : '100%'\n        }\n      });\n    })])]);\n  };\n\n  var listcom_1;\n  listcom.componentName = 'listcom'; // tslint:disable-next-line:no-shadowed-variable\n\n  listcom.install = function (Vue) {\n    return Vue.component(listcom_1.componentName, listcom_1);\n  };\n\n  listcom = listcom_1 = __decorate([Component], listcom);\n  return listcom;\n}(BaseComponent);\n\nexport default listcom;"
         },
         {
           "id": null,
@@ -4679,8 +4679,8 @@
               "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/main.ts",
               "name": "./src/main.ts",
               "profile": {
-                "factory": 39,
-                "building": 1824
+                "factory": 41,
+                "building": 1986
               }
             },
             {
@@ -4688,15 +4688,15 @@
               "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/package/index.ts",
               "name": "./src/package/index.ts",
               "profile": {
-                "factory": 4,
-                "building": 26
+                "factory": 15,
+                "building": 39
               }
             }
           ],
           "profile": {
             "factory": 6,
-            "building": 737,
-            "dependencies": 530
+            "building": 716,
+            "dependencies": 508
           },
           "failed": false,
           "errors": 0,
@@ -4753,8 +4753,8 @@
               "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/main.ts",
               "name": "./src/main.ts",
               "profile": {
-                "factory": 39,
-                "building": 1824
+                "factory": 41,
+                "building": 1986
               }
             },
             {
@@ -4762,8 +4762,8 @@
               "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/package/index.ts",
               "name": "./src/package/index.ts",
               "profile": {
-                "factory": 4,
-                "building": 26
+                "factory": 15,
+                "building": 39
               }
             },
             {
@@ -4772,15 +4772,15 @@
               "name": "./src/package/Skeleton.tsx",
               "profile": {
                 "factory": 6,
-                "building": 737,
-                "dependencies": 530
+                "building": 716,
+                "dependencies": 508
               }
             }
           ],
           "profile": {
-            "factory": 613,
-            "building": 73,
-            "dependencies": 23
+            "factory": 589,
+            "building": 128,
+            "dependencies": 21
           },
           "failed": false,
           "errors": 0,
@@ -4843,18 +4843,18 @@
             },
             {
               "moduleId": null,
-              "moduleIdentifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/package/components/ListCom.tsx",
-              "module": "./src/package/components/ListCom.tsx",
-              "moduleName": "./src/package/components/ListCom.tsx",
+              "moduleIdentifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/package/components/Card.tsx",
+              "module": "./src/package/components/Card.tsx",
+              "moduleName": "./src/package/components/Card.tsx",
               "type": "harmony side effect evaluation",
               "userRequest": "vue-property-decorator",
               "loc": "41:0-51"
             },
             {
               "moduleId": null,
-              "moduleIdentifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/package/components/Card.tsx",
-              "module": "./src/package/components/Card.tsx",
-              "moduleName": "./src/package/components/Card.tsx",
+              "moduleIdentifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/package/components/ListCom.tsx",
+              "module": "./src/package/components/ListCom.tsx",
+              "moduleName": "./src/package/components/ListCom.tsx",
               "type": "harmony side effect evaluation",
               "userRequest": "vue-property-decorator",
               "loc": "41:0-51"
@@ -4978,15 +4978,6 @@
             },
             {
               "moduleId": null,
-              "moduleIdentifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/package/components/ListCom.tsx",
-              "module": "./src/package/components/ListCom.tsx",
-              "moduleName": "./src/package/components/ListCom.tsx",
-              "type": "harmony import specifier",
-              "userRequest": "vue-property-decorator",
-              "loc": "108:36-45"
-            },
-            {
-              "moduleId": null,
               "moduleIdentifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/package/components/Circle.tsx",
               "module": "./src/package/components/Circle.tsx",
               "moduleName": "./src/package/components/Circle.tsx",
@@ -5011,6 +5002,15 @@
               "type": "harmony import specifier",
               "userRequest": "vue-property-decorator",
               "loc": "116:34-43"
+            },
+            {
+              "moduleId": null,
+              "moduleIdentifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/package/components/ListCom.tsx",
+              "module": "./src/package/components/ListCom.tsx",
+              "moduleName": "./src/package/components/ListCom.tsx",
+              "type": "harmony import specifier",
+              "userRequest": "vue-property-decorator",
+              "loc": "116:36-45"
             },
             {
               "moduleId": null,
@@ -5081,8 +5081,8 @@
               "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/main.ts",
               "name": "./src/main.ts",
               "profile": {
-                "factory": 39,
-                "building": 1824
+                "factory": 41,
+                "building": 1986
               }
             },
             {
@@ -5090,8 +5090,8 @@
               "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/package/index.ts",
               "name": "./src/package/index.ts",
               "profile": {
-                "factory": 4,
-                "building": 26
+                "factory": 15,
+                "building": 39
               }
             },
             {
@@ -5100,15 +5100,15 @@
               "name": "./src/package/Skeleton.tsx",
               "profile": {
                 "factory": 6,
-                "building": 737,
-                "dependencies": 530
+                "building": 716,
+                "dependencies": 508
               }
             }
           ],
           "profile": {
-            "factory": 613,
-            "building": 73,
-            "dependencies": 23
+            "factory": 589,
+            "building": 128,
+            "dependencies": 21
           },
           "failed": false,
           "errors": 0,
@@ -5171,18 +5171,18 @@
             },
             {
               "moduleId": null,
-              "moduleIdentifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/package/components/ListCom.tsx",
-              "module": "./src/package/components/ListCom.tsx",
-              "moduleName": "./src/package/components/ListCom.tsx",
+              "moduleIdentifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/package/components/Card.tsx",
+              "module": "./src/package/components/Card.tsx",
+              "moduleName": "./src/package/components/Card.tsx",
               "type": "harmony side effect evaluation",
               "userRequest": "../BaseComponent",
               "loc": "42:0-45"
             },
             {
               "moduleId": null,
-              "moduleIdentifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/package/components/Card.tsx",
-              "module": "./src/package/components/Card.tsx",
-              "moduleName": "./src/package/components/Card.tsx",
+              "moduleIdentifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/package/components/ListCom.tsx",
+              "module": "./src/package/components/ListCom.tsx",
+              "moduleName": "./src/package/components/ListCom.tsx",
               "type": "harmony side effect evaluation",
               "userRequest": "../BaseComponent",
               "loc": "42:0-45"
@@ -5216,15 +5216,6 @@
             },
             {
               "moduleId": null,
-              "moduleIdentifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/package/components/ListCom.tsx",
-              "module": "./src/package/components/ListCom.tsx",
-              "moduleName": "./src/package/components/ListCom.tsx",
-              "type": "harmony import specifier",
-              "userRequest": "../BaseComponent",
-              "loc": "110:2-15"
-            },
-            {
-              "moduleId": null,
               "moduleIdentifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/package/components/Circle.tsx",
               "module": "./src/package/components/Circle.tsx",
               "moduleName": "./src/package/components/Circle.tsx",
@@ -5246,6 +5237,15 @@
               "moduleIdentifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/package/components/Avatar.tsx",
               "module": "./src/package/components/Avatar.tsx",
               "moduleName": "./src/package/components/Avatar.tsx",
+              "type": "harmony import specifier",
+              "userRequest": "../BaseComponent",
+              "loc": "118:2-15"
+            },
+            {
+              "moduleId": null,
+              "moduleIdentifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/package/components/ListCom.tsx",
+              "module": "./src/package/components/ListCom.tsx",
+              "moduleName": "./src/package/components/ListCom.tsx",
               "type": "harmony import specifier",
               "userRequest": "../BaseComponent",
               "loc": "118:2-15"
@@ -5309,8 +5309,8 @@
               "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/main.ts",
               "name": "./src/main.ts",
               "profile": {
-                "factory": 39,
-                "building": 1824
+                "factory": 41,
+                "building": 1986
               }
             },
             {
@@ -5318,8 +5318,8 @@
               "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/package/index.ts",
               "name": "./src/package/index.ts",
               "profile": {
-                "factory": 4,
-                "building": 26
+                "factory": 15,
+                "building": 39
               }
             },
             {
@@ -5328,14 +5328,14 @@
               "name": "./src/package/components/Custom.tsx",
               "profile": {
                 "factory": 6,
-                "building": 737,
-                "dependencies": 530
+                "building": 716,
+                "dependencies": 508
               }
             }
           ],
           "profile": {
-            "factory": 295,
-            "building": 73
+            "factory": 362,
+            "building": 128
           },
           "failed": false,
           "errors": 0,
@@ -5435,8 +5435,8 @@
               "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/main.ts",
               "name": "./src/main.ts",
               "profile": {
-                "factory": 39,
-                "building": 1824
+                "factory": 41,
+                "building": 1986
               }
             },
             {
@@ -5444,8 +5444,8 @@
               "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/package/index.ts",
               "name": "./src/package/index.ts",
               "profile": {
-                "factory": 4,
-                "building": 26
+                "factory": 15,
+                "building": 39
               }
             },
             {
@@ -5454,8 +5454,8 @@
               "name": "./src/package/Skeleton.tsx",
               "profile": {
                 "factory": 6,
-                "building": 737,
-                "dependencies": 530
+                "building": 716,
+                "dependencies": 508
               }
             },
             {
@@ -5463,15 +5463,15 @@
               "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/vue-style-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/node_modules/css-loader/dist/cjs.js??ref--1-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/postcss-loader/src/index.js??ref--1-2!/Users/enzezhang/githubList/vue-skeleton/node_modules/less-loader/dist/cjs.js!/Users/enzezhang/githubList/vue-skeleton/src/package/style/style.less",
               "name": "./src/package/style/style.less",
               "profile": {
-                "factory": 613,
-                "building": 73,
-                "dependencies": 23
+                "factory": 589,
+                "building": 128,
+                "dependencies": 21
               }
             }
           ],
           "profile": {
-            "factory": 68,
-            "building": 145
+            "factory": 122,
+            "building": 146
           },
           "failed": false,
           "errors": 0,
@@ -5519,8 +5519,8 @@
               "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/main.ts",
               "name": "./src/main.ts",
               "profile": {
-                "factory": 39,
-                "building": 1824
+                "factory": 41,
+                "building": 1986
               }
             },
             {
@@ -5528,8 +5528,8 @@
               "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/babel-loader/lib/index.js??ref--3-0!/Users/enzezhang/githubList/vue-skeleton/node_modules/ts-loader/index.js??ref--3-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/tslint-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/src/package/index.ts",
               "name": "./src/package/index.ts",
               "profile": {
-                "factory": 4,
-                "building": 26
+                "factory": 15,
+                "building": 39
               }
             },
             {
@@ -5538,8 +5538,8 @@
               "name": "./src/package/Skeleton.tsx",
               "profile": {
                 "factory": 6,
-                "building": 737,
-                "dependencies": 530
+                "building": 716,
+                "dependencies": 508
               }
             },
             {
@@ -5547,9 +5547,9 @@
               "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/vue-style-loader/index.js!/Users/enzezhang/githubList/vue-skeleton/node_modules/css-loader/dist/cjs.js??ref--1-1!/Users/enzezhang/githubList/vue-skeleton/node_modules/postcss-loader/src/index.js??ref--1-2!/Users/enzezhang/githubList/vue-skeleton/node_modules/less-loader/dist/cjs.js!/Users/enzezhang/githubList/vue-skeleton/src/package/style/style.less",
               "name": "./src/package/style/style.less",
               "profile": {
-                "factory": 613,
-                "building": 73,
-                "dependencies": 23
+                "factory": 589,
+                "building": 128,
+                "dependencies": 21
               }
             },
             {
@@ -5557,8 +5557,8 @@
               "identifier": "/Users/enzezhang/githubList/vue-skeleton/node_modules/vue-style-loader/lib/addStylesClient.js",
               "name": "./node_modules/vue-style-loader/lib/addStylesClient.js",
               "profile": {
-                "factory": 68,
-                "building": 145
+                "factory": 122,
+                "building": 146
               }
             }
           ],

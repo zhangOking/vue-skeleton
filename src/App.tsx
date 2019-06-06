@@ -98,7 +98,9 @@ class Home extends Vue {
                 active
                 options={{
                   row: 4,
-                  lineHight: 20
+                  lineHight: 20,
+                  width: '100%',
+                  position: 'end'
                 }}
               />
             </div>
@@ -112,7 +114,7 @@ class Home extends Vue {
                   :options="{
                     row: 3,
                     lineHight: 20,
-                    width: 500,
+                    width: 100px,
                   }"
                 />
               `}

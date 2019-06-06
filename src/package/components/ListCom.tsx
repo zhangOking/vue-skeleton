@@ -11,12 +11,14 @@ class listcom extends BaseComponent {
   public name: string = 'listcom'
   public render(h) {
     const { type, title = false, options, loading = false, active = false, start = true, center = false, end = false } = this.$props
-    const { row = 4, lineHight = 20, width = '100%', height = '20px' } = options
+    const { row = 4, lineHight = 20, width = '100%', height = '20px', position = 'center' } = options
     const arr = Array(+row).fill(0)
-
+    const styleLC = {
+      'align-items': position
+    }
     return (
-      <div class={[style.listCom]}>
-        <ul style="{width: 100%}">
+      <div class={[style.listCom]} style={styleLC}>
+        <ul style={{width: width}}>
             {
               arr.map((item, index) => (
                 <li
